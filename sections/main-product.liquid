@@ -312,20 +312,19 @@
                         </div>
                     </button>
                     
-                    {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
-                      {% assign notification_form = product.metafields.my_fields.notification_formid %}
-                      {%- if notification_form -%}
-                        <modal-opener style="margin-bottom: 1rem" class="no-js-hidden" data-modal="#PopupModal-{{ notification_form }}" {{ block.shopify_attributes }}>
-                          <button id="ProductPopup-{{ notification_form }}" class="button button--full-width button--secondary" type="button" aria-haspopup="dialog">Notify When Available</button>
-                        </modal-opener>
-                        <a href="https://cdn.forms-content.sg-form.com/{{ notification_form }}" class="product-popup-modal__button link no-js">Notify When Available</a>
-                      {%- endif -%}
-                    {%- endif -%}                 
-
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
 
+                    {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
+                      {% assign notification_form = product.metafields.my_fields.notification_formid %}
+                      {%- if notification_form -%}
+                        <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ notification_form }}" {{ block.shopify_attributes }}>
+                          <button style="margin-bottom: 1rem" id="ProductPopup-{{ notification_form }}" class="button button--full-width button--secondary" type="button" aria-haspopup="dialog">Notify When Available</button>
+                        </modal-opener>
+                        <a href="https://cdn.forms-content.sg-form.com/{{ notification_form }}" class="product-popup-modal__button link no-js">Notify When Available</a>
+                      {%- endif -%}
+                    {%- endif -%}
                   </div>
                 {%- endform -%}
               </product-form>
