@@ -8,7 +8,7 @@
     "1641953619c50031f2": {
       "type": "apps",
       "blocks": {
-        "d231239b-7cdd-48c8-9015-0994076763cf": {
+        "27cced84-c8be-4b1b-941a-641f60f9dd11": {
           "type": "shopify:\/\/apps\/social-embed\/blocks\/app-block\/a3a813a9-fd68-4118-84b9-44ecdecd106f",
           "settings": {
             "heading": "Instagram Feed"
@@ -16,7 +16,7 @@
         }
       },
       "block_order": [
-        "d231239b-7cdd-48c8-9015-0994076763cf"
+        "27cced84-c8be-4b1b-941a-641f60f9dd11"
       ],
       "settings": {
         "include_margins": true
