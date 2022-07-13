@@ -168,31 +168,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <!-- BEGIN GCR Badge Code -->
-    <script src="https://apis.google.com/js/platform.js?onload=renderBadge"
-      async defer>
-    </script>
-
-    <script>
-      window.renderBadge = function() {
-        var ratingBadgeContainer = document.createElement("div");
-        document.body.appendChild(ratingBadgeContainer);
-        window.gapi.load('ratingbadge', function() {
-          window.gapi.ratingbadge.render(
-            ratingBadgeContainer, {
-              "merchant_id": 467891100,
-              "position": "BOTTOM_RIGHT"
-            });
-        });
-      }
-    </script>
-    <!-- END GCR Badge Code -->
-    <!-- BEGIN GCR Language Code -->
-    <script>
-      window.___gcfg = {
-        lang: 'en_US'
-      };
-    </script>
-    <!-- END GCR Language Code -->    
   </body>
 </html>
