@@ -11,7 +11,8 @@
         "d4b8b035-6b45-4603-bdf0-43b2b30a651a": {
           "type": "shopify:\/\/apps\/social-embed\/blocks\/app-block\/a3a813a9-fd68-4118-84b9-44ecdecd106f",
           "settings": {
-            "heading": "Instagram Feed Test"
+            "heading": "Our Instagram Feed",
+            "post_size": 10
           }
         }
       },
