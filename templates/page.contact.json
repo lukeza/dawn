@@ -13,16 +13,6 @@
     },
     "16593876593eadfb0b": {
       "type": "apps",
-      "blocks": {
-        "1b4551a9-ca7b-4d3d-9e5b-9f461478168b": {
-          "type": "shopify:\/\/apps\/instafeed-shoppable-feed\/blocks\/app-block\/37be8af8-61d9-482d-a6b3-0b1be143eaf2",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1b4551a9-ca7b-4d3d-9e5b-9f461478168b"
-      ],
       "settings": {
         "include_margins": true
       }
