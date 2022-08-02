@@ -11,9 +11,9 @@
     "gradient_background_1": "",
     "colors_background_2": "#fde49c",
     "gradient_background_2": "",
-    "type_header_font": "assistant_n4",
+    "type_header_font": "sans-serif",
     "heading_scale": 100,
-    "type_body_font": "assistant_n4",
+    "type_body_font": "sans-serif",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -86,12 +86,16 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/miicoffee.shop",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCezt6l0SCj-4uC9_E0n3nZg",
     "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/mii_store-small.png",
+    "checkout_accent_color": "#df711b",
+    "checkout_button_color": "#df711b",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
@@ -103,9 +107,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Free shipping on orders over $69",
+              "color_scheme": "accent-2",
               "text_alignment": "center",
-              "color_scheme": "background-1",
               "link": ""
             }
           }
@@ -120,7 +124,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/mii_store-small.png",
+          "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -134,37 +139,21 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-0": {
+          "2f91cdaf-1dc9-47ca-ad65-7990bf4fd207": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Support",
+              "menu": "support"
             }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
+          "2f91cdaf-1dc9-47ca-ad65-7990bf4fd207"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Stay Connected",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
