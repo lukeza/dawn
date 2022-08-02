@@ -10,13 +10,6 @@
             "heading_size": "h0"
           }
         },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -31,16 +24,15 @@
       },
       "block_order": [
         "heading",
-        "text",
         "button"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/AdobeStock_229724162.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
@@ -60,7 +52,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>The Mii DF64 coffee grinder is the ideal \"prosumer\" coffee grinder for single dosing on the market. It comes with made 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. Single dosing is the rage in the espresso aficionado world these days and there aren’t very many good options that don’t cost a ton.<\/p>"
+            "text": "<p>The MiiCoffee DF64 coffee grinder is the ideal \"prosumer\" coffee grinder for single dosing on the market. It comes with made 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. Single dosing is the rage in the espresso aficionado world these days and there aren’t very many good options that don’t cost a ton.<\/p>"
           }
         }
       },
