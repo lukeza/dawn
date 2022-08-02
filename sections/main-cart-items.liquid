@@ -164,19 +164,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              {{ item.original_line_price | money }}
+                              <span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            {{ item.final_line_price | money }}
+                            <span class="bcpo-cart-item-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span>
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          {{ item.original_line_price | money }}
+                          <span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
                         </span>
                       {%- endif -%}
 
@@ -261,12 +261,12 @@
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            {{ item.final_line_price | money }}
+                            <span class="bcpo-cart-item-line-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span>
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          {{ item.original_line_price | money }}
+                          <span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
                         </span>
                       {%- endif -%}
 
