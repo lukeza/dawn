@@ -46,25 +46,42 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "DF64 Grinder"
+            "heading": "DF64 Grinder",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>The MiiCoffee DF64 coffee grinder is the ideal \"prosumer\" coffee grinder for single dosing on the market. It comes with made 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. Single dosing is the rage in the espresso aficionado world these days and there aren’t very many good options that don’t cost a ton.<\/p>"
+            "text": "<p>The MiiCoffee DF64 coffee grinder is the ideal \"prosumer\" coffee grinder for single dosing on the market. It comes with made 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. Single dosing is the rage in the espresso aficionado world these days and there aren’t very many good options that don’t cost a ton.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "59f03b66-c1c9-4b9d-be53-dbf2a05d72bf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder"
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "59f03b66-c1c9-4b9d-be53-dbf2a05d72bf"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/withmachine.jpg",
         "height": "adapt",
+        "desktop_image_width": "medium",
         "layout": "image_first",
-        "color_scheme": "background-1"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -72,15 +89,22 @@
       "settings": {
         "title": "More products",
         "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
         "collection": "frontpage",
         "products_to_show": 8,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
