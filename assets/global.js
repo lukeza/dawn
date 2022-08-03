@@ -14,7 +14,7 @@ var myTimer = window.setInterval(() => {
   document.querySelectorAll('.bcpo-front-button-option').forEach(b => {
     found = true
     console.log(b)
-    b.addEventListener('click', checkVariant(b))
+    b.addEventListener('change', checkVariant(b))
   });
   if (found || countDownTotal > 5) {
     window.clearInterval(myTimer)
@@ -22,7 +22,8 @@ var myTimer = window.setInterval(() => {
 }, 1000)
 
 function checkVariant(b) {
-  console.log('clicked ' + b.id)
+  const valueElement = document.querySelector('.bcpo-value')
+  console.log('changed ' + valueElement.textContent)
 }
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
