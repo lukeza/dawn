@@ -568,9 +568,8 @@
                 </div>
               </noscript>
             {%- when 'buy_buttons' -%}
-              <div id="variant-inventory">
-                <p>{%- if product.selected_or_first_available_variant.available == false %} {{ product.selected_or_first_available_variant.inventory_quantity }}{% endif %}  </p>
-                <strong>
+              <strong>
+                <div id="variant-inventory">
                   {% if product.selected_or_first_available_variant.inventory_quantity <= 0 %}
                     {%- if product.selected_or_first_available_variant.incoming -%}
                       ETA Date: {{ product.selected_or_first_available_variant.next_incoming_date | date: "%b %d, %Y" }}.
@@ -582,8 +581,8 @@
                   {% else %}
                     In stock.
                   {% endif %}
-                </strong>
-              </div>
+                </div>
+              </strong>
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>

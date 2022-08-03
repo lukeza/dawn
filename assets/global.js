@@ -864,6 +864,13 @@ class VariantSelects extends HTMLElement {
       addButtonText.textContent = window.variantStrings.addToCart;
     }
 
+    if (this.currentVariant) {
+      const varientInventoryText = document.getElementById('variant-inventory');
+      if (varientInventoryText) {
+        addButtonText.textContent = this.currentVariant.inventory_quantity;
+      }
+    }
+
     if (!modifyClass) return;
   }
 
