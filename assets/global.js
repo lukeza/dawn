@@ -6,8 +6,26 @@ function getFocusableElements(container) {
   );
 }
 
-window.addEventListener('popstate', (event) => {
-  console.log(`location: ${document.location}, state: ${JSON.stringify(event.state)}`)
+history.pushState = ( f => function pushState(){
+  var ret = f.apply(this, arguments);
+  console.log('pushState')
+  window.dispatchEvent(new Event('locationchange'));
+  return ret;
+})(history.pushState);
+
+history.replaceState = ( f => function replaceState(){
+  var ret = f.apply(this, arguments);
+  console.log('replaceState')
+  window.dispatchEvent(new Event('locationchange'));
+  return ret;
+})(history.replaceState);
+
+window.addEventListener('popstate',()=>{
+  window.dispatchEvent(new Event('locationchange'))
+});
+
+window.addEventListener('locationchange', () => {
+  console.log(`location: ${document.location}`)
 });
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
