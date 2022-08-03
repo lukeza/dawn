@@ -634,7 +634,7 @@
                           {%- assign mainButtonText = '' -%}
                           {%- for variant in product.variants -%}
                             {% liquid
-                              assign addButtonText = ''
+                              assign addButtonText = 'test'
                               if variant.available
                                 if variant.inventory_quantity <= 0
                                   assign addButtonText = 'Back Order'
