@@ -866,8 +866,8 @@ class VariantSelects extends HTMLElement {
 
     if (this.currentVariant) {
       const varientInventoryText = document.getElementById('variant-inventory');
-      if (varientInventoryText) {
-        varientInventoryText.textContent = this.currentVariant.inventory_quantity;
+      if (varientInventoryText && varientInventoryText.dataset[this.currentVariant.id]) {
+        varientInventoryText.textContent = varientInventoryText.dataset[this.currentVariant.id];
       }
     }
 
