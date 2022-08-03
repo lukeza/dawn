@@ -631,9 +631,25 @@
                         {% endif %}
                       >
                         <span id="add-button-text"
-                          {%- assign mainButtonText = '123' -%}
+                          {%- assign mainButtonText = '' -%}
                           {%- for variant in product.variants -%}
-                            data-{{ variant.id }}="test"
+                            {% liquid
+                              assign addButtonText = ''
+                              if variant.available
+                                if variant.inventory_quantity <= 0
+                                  assign addButtonText = 'Back Order'
+                                else
+                                  assign addButtonText = products.product.add_to_cart | t
+                                endif
+                              else
+                                assign addButtonText = products.product.sold_out | t
+                              endif
+
+                              if variant == product.selected_or_first_available_variant
+                                assign mainButtonText = addButtonText
+                              endif
+                            %}
+                            data-{{ variant.id }}="{{addButtonText}}"
                           {%- endfor -%}
                         >
                           {{ mainButtonText }}
