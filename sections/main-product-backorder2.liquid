@@ -630,7 +630,7 @@
                           disabled
                         {% endif %}
                       >
-                        <span id="add-button-text">
+                        <span id="add-button-text"
                           {%- assign mainButtonText = '' -%}
                             {%- for variant in product.variants -%}
                               {% liquid
@@ -646,10 +646,10 @@
                                 endif
 
                                 if variant == product.selected_or_first_available_variant
-                                  assign mainText = inventoryText
+                                  assign mainButtonText = buttonText
                                 endif
                               %}
-                              data-{{ variant.id }}="{{inventoryText}}"
+                              data-{{ variant.id }}="{{buttonText}}"
                             {%- endfor -%}
                           >
                           {{ mainButtonText }}
