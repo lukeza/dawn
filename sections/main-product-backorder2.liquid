@@ -569,7 +569,7 @@
               </noscript>
             {%- when 'buy_buttons' -%}
               <div id="variant-inventory">
-                <p>{{ product.selected_or_first_available_variant }} {{ product.selected_or_first_available_variant.available }}</p>
+                <p>{%- if product.selected_or_first_available_variant.available == false %} {{ product.selected_or_first_available_variant.inventory_quantity }}{% endif %}  </p>
                 <strong>
                   {% if product.selected_or_first_available_variant.inventory_quantity <= 0 %}
                     {%- if product.selected_or_first_available_variant.incoming -%}
