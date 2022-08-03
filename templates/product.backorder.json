@@ -11,7 +11,9 @@
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {
+          }
         },
         "caption": {
           "type": "text",
@@ -26,7 +28,9 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -36,7 +40,9 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true
+          "disabled": true,
+          "settings": {
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -45,7 +51,9 @@
           }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+          }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -132,7 +140,7 @@
       "settings": {
         "include_margins": true
       }
-    },    
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
