@@ -6,9 +6,14 @@ function getFocusableElements(container) {
   );
 }
 
-document.addEventListener("load", () => {
-  console.log('load')
+document.querySelectorAll('.bcpo-front-button-option').forEach(b => {
+  console.log(b)
+  b.addEventListener('click', checkVariant(b))
 });
+
+function checkVariant(b) {
+  console.log('clicked ' + b.id)
+}
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
