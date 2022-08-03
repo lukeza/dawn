@@ -873,9 +873,9 @@ class VariantSelects extends HTMLElement {
       const notificationButton = document.getElementById('notification-button');
       if (notificationButton && notificationButton.dataset[this.currentVariant.id]) {
         if (notificationButton.dataset[this.currentVariant.id] == "1")
-          notificationButton.classList.remove('visibility-hidden')
+          notificationButton.classList.remove('display-none')
         else 
-          notificationButton.classList.add('visibility-hidden')
+          notificationButton.classList.add('display-none')
       }
     }
 

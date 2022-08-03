@@ -686,6 +686,10 @@ details > * {
   visibility: hidden;
 }
 
+.display-none {
+  display:none;
+}
+
 @media (prefers-reduced-motion) {
   .motion-reduce {
     transition: none !important;

@@ -691,7 +691,7 @@
                             data-{{ variant.id }}="{{notificationText}}"
                           {%- endfor -%}
                           {%- if mainNotificationText == '0' -%}
-                            class="visibility-hidden"
+                            class="display-none"
                           {%- endif -%}
                         >
                           <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ notification_form }}" {{ block.shopify_attributes }}>
