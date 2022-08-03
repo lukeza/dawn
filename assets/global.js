@@ -849,6 +849,14 @@ class VariantSelects extends HTMLElement {
       });
   }
 
+  setButtonText(addButtonText, text) {
+    if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
+      addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
+    } else {
+      addButtonText.textContent = text
+    }
+  }
+  
   toggleAddButton(disable = true, text, modifyClass = true) {
     const productForm = document.getElementById(`product-form-${this.dataset.section}`);
     if (!productForm) return;
@@ -872,14 +880,6 @@ class VariantSelects extends HTMLElement {
     }
 
     if (!modifyClass) return;
-  }
-
-  setButtonText(addButtonText, text) {
-    if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
-      addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
-    } else {
-      addButtonText.textContent = text
-    }
   }
 
   setUnavailable() {
