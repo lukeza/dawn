@@ -878,7 +878,7 @@ class VariantSelects extends HTMLElement {
     if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
       addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
     } else {
-      //addButtonText.textContent = text
+      addButtonText.textContent = text
     }
   }
 
