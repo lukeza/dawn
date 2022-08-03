@@ -609,6 +609,7 @@
                       value="{{ product.selected_or_first_available_variant.id }}"
                       disabled
                     >
+                    <p>{%- if product.selected_or_first_available_variant.available == false %} {{ product.selected_or_first_available_variant.inventory_quantity }}{% endif %}  </p>
                     <div class="product-form__buttons">
                       <button
                         type="submit"
