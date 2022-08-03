@@ -849,14 +849,6 @@ class VariantSelects extends HTMLElement {
       });
   }
 
-  setButtonText(addButtonText, text) {
-    if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
-      addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
-    } else {
-      addButtonText.textContent = text
-    }
-  }
-  
   toggleAddButton(disable = true, text, modifyClass = true) {
     const productForm = document.getElementById(`product-form-${this.dataset.section}`);
     if (!productForm) return;
@@ -866,10 +858,10 @@ class VariantSelects extends HTMLElement {
 
     if (disable) {
       addButton.setAttribute('disabled', 'disabled');
-      if (text) setButtonText(addButtonText, text);
+      if (text) this.setButtonText(addButtonText, text);
     } else {
       addButton.removeAttribute('disabled');
-      setButtonText(addButtonText, window.variantStrings.addToCart);
+      this.setButtonText(addButtonText, window.variantStrings.addToCart);
     }
 
     if (this.currentVariant) {
@@ -882,6 +874,14 @@ class VariantSelects extends HTMLElement {
     if (!modifyClass) return;
   }
 
+  setButtonText(addButtonText, text) {
+    if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
+      addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
+    } else {
+      addButtonText.textContent = text
+    }
+  }
+  
   setUnavailable() {
     const button = document.getElementById(`product-form-${this.dataset.section}`);
     const addButton = button.querySelector('[name="add"]');
