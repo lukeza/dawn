@@ -635,6 +635,16 @@
                           {%- for variant in product.variants -%}
                             {% liquid
                               assign addButtonText = '123'
+                              if variant.available
+                                if variant.inventory_quantity <= 0
+                                  assign addButtonText = 'Back Order'
+                                else
+                                  assign addButtonText = 'Add to cart' 
+                                endif
+                              else
+                                assign addButtonText = 'Sold out'
+                              endif
+
                               if variant == product.selected_or_first_available_variant
                                 assign mainButtonText = addButtonText
                               endif
