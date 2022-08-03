@@ -16,11 +16,10 @@ var myTimer = window.setInterval(() => {
     console.log(b)
     b.addEventListener('click', checkVariant(b))
   });
-  if (found || countDownTotal > 5 {
+  if (found || countDownTotal > 5) {
     window.clearInterval(myTimer)
   }
 }, 1000)
-
 
 function checkVariant(b) {
   console.log('clicked ' + b.id)
