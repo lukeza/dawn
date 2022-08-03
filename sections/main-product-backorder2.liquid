@@ -639,10 +639,10 @@
                                 if variant.inventory_quantity <= 0
                                   assign addButtonText = 'Back Order'
                                 else
-                                  assign addButtonText = products.product.add_to_cart 
+                                  assign addButtonText = 'products.product.add_to_cart' | t
                                 endif
                               else
-                                assign addButtonText = products.product.sold_out
+                                assign addButtonText = 'products.product.sold_out' | t
                               endif
 
                               if variant == product.selected_or_first_available_variant
