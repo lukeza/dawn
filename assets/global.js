@@ -867,7 +867,7 @@ class VariantSelects extends HTMLElement {
     if (this.currentVariant) {
       const varientInventoryText = document.getElementById('variant-inventory');
       if (varientInventoryText) {
-        addButtonText.textContent = this.currentVariant.inventory_quantity;
+        varientInventoryText.textContent = this.currentVariant.inventory_quantity;
       }
     }
 
