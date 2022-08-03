@@ -15,7 +15,7 @@
     "heading_scale": 100,
     "type_body_font": "sans-serif",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1600,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
@@ -92,14 +92,14 @@
     "social_snapchat_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCezt6l0SCj-4uC9_E0n3nZg",
     "social_vimeo_link": "",
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "checkout_logo_image": "shopify:\/\/shop_images\/mii_store-small.png",
-    "checkout_accent_color": "#df711b",
-    "checkout_button_color": "#df711b",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/mii_store-small.png",
+    "checkout_accent_color": "#df711b",
+    "checkout_button_color": "#df711b",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -108,8 +108,8 @@
             "type": "announcement",
             "settings": {
               "text": "Free shipping on orders over $69",
-              "color_scheme": "accent-2",
               "text_alignment": "center",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
