@@ -620,7 +620,6 @@
                       value="{{ product.selected_or_first_available_variant.id }}"
                       disabled
                     >
-                    <p>{%- if product.selected_or_first_available_variant.available == false %} {{ product.selected_or_first_available_variant.inventory_quantity }}{% endif %}  </p>
                     <div class="product-form__buttons">
                       <button
                         type="submit"
@@ -630,16 +629,29 @@
                           disabled
                         {% endif %}
                       >
-                        <span>
-                          {%- if product.selected_or_first_available_variant.available -%}
-                            {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
-                              Back Order
-                            {%- else -%}
-                              {{ 'products.product.add_to_cart' | t }}
-                            {%- endif -%}
-                          {%- else -%}
-                            {{ 'products.product.sold_out' | t }}
-                          {%- endif -%}
+                        <span id="add-button-text">
+                          {%- assign mainButtonText = '' -%}
+                            {%- for variant in product.variants -%}
+                              {% liquid
+                                assign buttonText = ''
+                                if variant.available
+                                  if variant.inventory_quantity <= 0
+                                    assign buttonText = 'Back Order'
+                                  else
+                                    assign buttonText = products.product.add_to_cart | t
+                                  endif
+                                else
+                                  assign buttonText = products.product.sold_out | t
+                                endif
+
+                                if variant == product.selected_or_first_available_variant
+                                  assign mainText = inventoryText
+                                endif
+                              %}
+                              data-{{ variant.id }}="{{inventoryText}}"
+                            {%- endfor -%}
+                          >
+                          {{ mainButtonText }}
                         </span>
                         <div class="loading-overlay__spinner hidden">
                           <svg

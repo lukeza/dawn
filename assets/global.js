@@ -858,10 +858,10 @@ class VariantSelects extends HTMLElement {
 
     if (disable) {
       addButton.setAttribute('disabled', 'disabled');
-      if (text) addButtonText.textContent = text;
+      if (text) setButtonText(addButtonText, text);
     } else {
       addButton.removeAttribute('disabled');
-      addButtonText.textContent = window.variantStrings.addToCart;
+      setButtonText(addButtonText, window.variantStrings.addToCart);
     }
 
     if (this.currentVariant) {
@@ -872,6 +872,14 @@ class VariantSelects extends HTMLElement {
     }
 
     if (!modifyClass) return;
+  }
+
+  setButtonText(addButtonText, text) {
+    if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
+      addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
+    } else {
+      addButtonText.textContent = text
+    }
   }
 
   setUnavailable() {
