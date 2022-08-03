@@ -90,18 +90,18 @@
                           {{ 'products.product.price.regular_price' | t }}
                         </span>
                         <s class="cart-item__old-price product-option">
-                          {{- item.original_price | money -}}
+                          <span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_price | money }}</span>
                         </s>
                         <span class="visually-hidden">
                           {{ 'products.product.price.sale_price' | t }}
                         </span>
                         <strong class="cart-item__final-price product-option">
-                          {{ item.final_price | money }}
+                          <span class="bcpo-cart-item-price" data-key="{{item.key}}">{{ item.final_price | money }}</span>
                         </strong>
                       </div>
                     {%- else -%}
                       <div class="product-option">
-                        {{ item.original_price | money }}
+                        <span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_price | money }}</span>
                       </div>
                     {%- endif -%}
 
@@ -123,7 +123,19 @@
                               <dt>{{ property.first }}: </dt>
                               <dd>
                                 {%- if property.last contains '/uploads/' -%}
-                                  <a href="{{ property.last }}" class="link" target="_blank">
+                                  <a href="
+{% if property.last contains '/uploads/' %}
+	{% assign file_type = property.last | split: '.' | last | downcase %}
+	{% assign file_types = 'jpg,jpeg,webp,gif,png,apng,avif,svg,bmp,ico,tiff' | split: ',' %}
+	{% if file_types contains file_type %}
+		<div class="bcpo-cart-file"><img src="{{ property.last }}" style="max-width: 50px; height: auto;"></div>
+	{% else %}
+		<span class="bcpo-cart-file">Uploaded file</span>
+	{% endif %}
+{% else %}
+	{{ property.last }}
+{% endif %}
+" class="link" target="_blank">
                                     {{ property.last | split: '/' | last }}
                                   </a>
                                 {%- else -%}
@@ -164,19 +176,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              <span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
+                              <span class="bcpo-cart-item-original-price" data-key="{{item.key}}"><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            <span class="bcpo-cart-item-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span>
+                            <span class="bcpo-cart-item-price" data-key="{{item.key}}"><span class="bcpo-cart-item-line-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span></span>
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          <span class="bcpo-cart-item-original-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
+                          <span class="bcpo-cart-item-original-price" data-key="{{item.key}}"><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                         </span>
                       {%- endif -%}
 
@@ -254,19 +266,19 @@
                           </dt>
                           <dd>
                             <s class="cart-item__old-price price price--end">
-                              {{ item.original_line_price | money }}
+                              <span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
                             </s>
                           </dd>
                           <dt class="visually-hidden">
                             {{ 'products.product.price.sale_price' | t }}
                           </dt>
                           <dd class="price price--end">
-                            <span class="bcpo-cart-item-line-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span>
+                            <span class="bcpo-cart-item-line-price" data-key="{{item.key}}"><span class="bcpo-cart-item-line-price" data-key="{{item.key}}">{{ item.final_line_price | money }}</span></span>
                           </dd>
                         </dl>
                       {%- else -%}
                         <span class="price price--end">
-                          <span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span>
+                          <span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}"><span class="bcpo-cart-item-original-line-price" data-key="{{item.key}}">{{ item.original_line_price | money }}</span></span>
                         </span>
                       {%- endif -%}
 
@@ -328,3 +340,5 @@
   ]
 }
 {% endschema %}
+
+<!-- bcpo done -->
