@@ -6,25 +6,9 @@ function getFocusableElements(container) {
   );
 }
 
-var countDownTotal = 0
-var myTimer = window.setInterval(() => {
-  countDownTotal++
-  console.log('checking ' + countDownTotal)
-  var found = false
-  document.querySelectorAll('.bcpo-front-button-option').forEach(b => {
-    found = true
-    console.log(b)
-    b.addEventListener('change', checkVariant(b))
-  });
-  if (found || countDownTotal > 5) {
-    window.clearInterval(myTimer)
-  }
-}, 1000)
-
-function checkVariant(b) {
-  const valueElement = document.querySelector('.bcpo-value')
-  console.log('changed ' + valueElement.textContent)
-}
+window.addEventListener('popstate', (event) => {
+  console.log(`location: ${document.location}, state: ${JSON.stringify(event.state)}`)
+});
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
