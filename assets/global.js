@@ -16,14 +16,14 @@ var myTimer = window.setInterval(() => {
     console.log(b)
     b.addEventListener('click', checkVariant(b))
   });
-  if (fround || countDownTotal > 30) {
+  if (found || countDownTotal > 30) {
     window.clearInterval(myTimer)
   }
 }, 1000)
 
 
 function checkVariant(b) {
-  console.log('clicked ' + b.id)
+  //console.log('clicked ' + b.id)
 }
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
