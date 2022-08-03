@@ -6,6 +6,10 @@ function getFocusableElements(container) {
   );
 }
 
+document.addEventListener("load", () => {
+  console.log('load')
+});
+
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
   summary.setAttribute('aria-expanded', summary.parentNode.hasAttribute('open'));
