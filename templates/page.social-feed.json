@@ -3,6 +3,8 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16307305551a0c3763": {
@@ -11,7 +13,7 @@
         "2ab5106b-85a6-466f-bbea-d10c162ad927": {
           "type": "shopify:\/\/apps\/instagram-feed-test\/blocks\/app-block\/43abe13e-3b0a-415f-acd3-a6d4646c8920",
           "settings": {
-            "heading": "Instagram Feed"
+            "heading": "Follow us on Instagram"
           }
         }
       },
