@@ -69,7 +69,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Returns<\/a> are accepted up to 30 days from the date the order was delivered. Open Box items are non-returnable.<\/p>",
+            "content": "<p>Free shipping on orders over $69.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Returns<\/a> are accepted up to 30 days from the date the order was delivered. Open Box items are non-returnable.<\/p>",
             "page": ""
           }
         },
