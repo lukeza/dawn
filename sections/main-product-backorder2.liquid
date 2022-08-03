@@ -569,18 +569,30 @@
               </noscript>
             {%- when 'buy_buttons' -%}
               <strong>
-                <div id="variant-inventory">
-                  {% if product.selected_or_first_available_variant.inventory_quantity <= 0 %}
-                    {%- if product.selected_or_first_available_variant.incoming -%}
-                      ETA Date: {{ product.selected_or_first_available_variant.next_incoming_date | date: "%b %d, %Y" }}.
-                    {%- else -%}
-                      Temporarily out of stock (more on the way)
-                    {%- endif -%}
-                  {% elsif product.selected_or_first_available_variant.inventory_quantity <= 5 %}
-                    We have {{ product.selected_or_first_available_variant.inventory_quantity }} in stock.
-                  {% else %}
-                    In stock.
-                  {% endif %}
+                <div id="variant-inventory"
+                  {%- assign mainText = '' -%}
+                  {%- for variant in product.variants -%}
+                    {% liquid
+                      assign inventoryText = ''
+                      if variant.inventory_quantity <= 0
+                        if variant.incoming
+                          assign inventoryText = 'ETA Date: ' | append: variant.next_incoming_date | date: '%b %d, %Y' .
+                        else
+                          assign inventoryText = 'Temporarily out of stock (more on the way)'
+                        endif
+                      elsif variant.inventory_quantity <= 5
+                        assign inventoryText = 'We have ' | append: variant.inventory_quantity | append: ' in stock.'
+                      else
+                        assign inventoryText = 'In stock.'
+                      endif
+                      if variant == product.selected_or_first_available_variant
+                        assign mainText = inventoryText
+                      endif
+                    %}
+                    data-{{ variant.id }}="{{inventoryText}}"
+                  {%- endfor -%}
+                >
+                  {{ mainText }}
                 </div>
               </strong>
               <div {{ block.shopify_attributes }}>
