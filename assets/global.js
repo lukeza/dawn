@@ -869,6 +869,14 @@ class VariantSelects extends HTMLElement {
       if (varientInventoryText && varientInventoryText.dataset[this.currentVariant.id]) {
         varientInventoryText.textContent = varientInventoryText.dataset[this.currentVariant.id];
       }
+
+      const notificationButton = document.getElementById('notification-button');
+      if (notificationButton && notificationButton.dataset[this.currentVariant.id]) {
+        if (notificationButton.dataset[this.currentVariant.id] == "1")
+          notificationButton.classList.add('visibility-hidden')
+        else 
+          notificationButton.classList.remove('visibility-hidden')
+      }
     }
 
     if (!modifyClass) return;
@@ -881,7 +889,7 @@ class VariantSelects extends HTMLElement {
       addButtonText.textContent = text
     }
   }
-  
+
   setUnavailable() {
     const button = document.getElementById(`product-form-${this.dataset.section}`);
     const addButton = button.querySelector('[name="add"]');

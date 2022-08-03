@@ -634,7 +634,7 @@
                           {%- assign mainButtonText = '' -%}
                           {%- for variant in product.variants -%}
                             {% liquid
-                              assign addButtonText = '123'
+                              assign addButtonText = ''
                               if variant.available
                                 if variant.inventory_quantity <= 0
                                   assign addButtonText = 'Back Order'
@@ -671,15 +671,41 @@
                         {{ form | payment_button }}
                       {%- endif -%}
 
-                      {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
-                        {% assign notification_form = product.metafields.my_fields.notification_formid %}
-                        {%- if notification_form -%}
+                      {% assign notification_form = product.metafields.my_fields.notification_formid %}
+                      {%- if notification_form -%}
+                        <div id="notification-button"
+                          {%- assign mainNotificationText = '' -%}
+                          {%- for variant in product.variants -%}
+                            {% liquid
+                              assign notificationText = ''
+                              if variant.inventory_quantity <= 0
+                                assign notificationText = '1'
+                              else
+                                assign notificationText = '0'
+                              endif
+  
+                              if variant == product.selected_or_first_available_variant
+                                assign mainNotificationText = notificationText
+                              endif
+                            %}
+                            data-{{ variant.id }}="{{notificationText}}"
+                          {%- endfor -%}
+                          {%- if mainNotificationText == '1' -%}
+                            class="visibility-hidden"
+                          {%- endif -%}
+                        >
                           <modal-opener class="no-js-hidden" data-modal="#PopupModal-{{ notification_form }}" {{ block.shopify_attributes }}>
                             <button style="margin-top: 1rem" id="ProductPopup-{{ notification_form }}" class="button button--full-width button--secondary" type="button" aria-haspopup="dialog">Notify When Available</button>
                           </modal-opener>
                           <a href="https://cdn.forms-content.sg-form.com/{{ notification_form }}" class="product-popup-modal__button link no-js">Notify When Available</a>
-                        {%- endif -%}
+                      </div>
                       {%- endif -%}
+
+
+
+                      {%- if product.selected_or_first_available_variant.inventory_quantity <= 0 -%}
+                      {%- endif -%}
+
                     </div>
                   {%- endform -%}
                 </product-form>
