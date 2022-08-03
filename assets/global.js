@@ -6,10 +6,21 @@ function getFocusableElements(container) {
   );
 }
 
-document.querySelectorAll('.bcpo-front-button-option').forEach(b => {
-  console.log(b)
-  b.addEventListener('click', checkVariant(b))
-});
+var countDownTotal = 0
+var myTimer = window.setInterval(() => {
+  countDownTotal++
+  console.log('checking ' + countDownTotal)
+  var found = false
+  document.querySelectorAll('.bcpo-front-button-option').forEach(b => {
+    found = true
+    console.log(b)
+    b.addEventListener('click', checkVariant(b))
+  });
+  if (fround || countDownTotal > 30) {
+    window.clearInterval(myTimer)
+  }
+}, 1000)
+
 
 function checkVariant(b) {
   console.log('clicked ' + b.id)
