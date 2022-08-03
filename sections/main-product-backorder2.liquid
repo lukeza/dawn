@@ -576,7 +576,7 @@
                       assign inventoryText = ''
                       if variant.inventory_quantity <= 0
                         if variant.incoming
-                          assign inventoryText = 'ETA Date: ' | append: variant.next_incoming_date | date: '%b %d, %Y' .
+                          assign inventoryText = 'ETA Date: ' | append: variant.next_incoming_date | date: '%b %d, %Y' | append: '.'
                         else
                           assign inventoryText = 'Temporarily out of stock (more on the way)'
                         endif
