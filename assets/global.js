@@ -25,8 +25,63 @@ window.addEventListener('popstate',()=>{
 });
 
 window.addEventListener('locationchange', () => {
+  const regex1 = RegExp('variant=(\d*)$', 'g');
+  var result = regex1.exec(document.location)
   console.log(`location: ${document.location}`)
+  if (result) {
+    console.log(`variant: ${result[1]}`)
+    var currentVariant = this.getProductVariantData().find((variant) => result[1] == variant.id.toString());
+    if (currentVariant) {
+      updateAddButton(currentVariant)
+    }
+  }
+  //variant=41781849358521
 });
+
+var productVariantData
+function getProductVariantData() {
+  productVariantData = productVariantData || JSON.parse(document.querySelector('#product-variants').textContent);
+  return productVariantData;
+}
+
+function updateAddButton(currentVariant) {
+  const productForm = document.querySelector(`product-form`);
+  if (!productForm) return;
+  const addButton = productForm.querySelector('[name="add"]');
+  const addButtonText = productForm.querySelector('[name="add"] > span');
+  if (!addButton) return;
+
+  if (!currentVariant.available) {
+    addButton.setAttribute('disabled', 'disabled');
+    if (text) updateButtonText(currentVariant, addButtonText, window.variantStrings.soldOut);
+  } else {
+    addButton.removeAttribute('disabled');
+    updateButtonText(currentVariant, addButtonText, window.variantStrings.addToCart);
+  }
+
+  if (currentVariant) {
+    const varientInventoryText = document.getElementById('variant-inventory');
+    if (varientInventoryText && varientInventoryText.dataset[currentVariant.id]) {
+      varientInventoryText.textContent = varientInventoryText.dataset[currentVariant.id];
+    }
+
+    const notificationButton = document.getElementById('notification-button');
+    if (notificationButton && notificationButton.dataset[currentVariant.id]) {
+      if (notificationButton.dataset[this.currentVariant.id] == "1")
+        notificationButton.classList.remove('display-none')
+      else 
+        notificationButton.classList.add('display-none')
+    }
+  }
+}
+
+function updateButtonText(currentVariant, addButtonText, text) {
+  if (currentVariant && addButtonText.dataset[currentVariant.id]) {
+    addButtonText.textContent = addButtonText.dataset[currentVariant.id];
+  } else {
+    addButtonText.textContent = text
+  }
+}
 
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');

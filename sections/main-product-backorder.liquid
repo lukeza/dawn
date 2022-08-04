@@ -595,6 +595,9 @@
                 >
                   {{ mainText }}
                 </div>
+                <script id="product-variants" type="application/json">
+                  {{ product.variants | json }}
+                </script>
               </strong>
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
