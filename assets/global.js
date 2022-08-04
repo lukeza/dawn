@@ -30,7 +30,7 @@ window.addEventListener('locationchange', () => {
   var result = regex1.exec(document.location)
   if (result) {
     console.log(`variant: ${result[1]}`)
-    var currentVariant = this.getProductVariantData().find((variant) => result[1] == variant.id.toString());
+    var currentVariant = getProductVariantData().find((variant) => result[1] == variant.id.toString());
     if (currentVariant) {
       console.log(currentVariant)
       updateAddButton(currentVariant)
@@ -67,7 +67,7 @@ function updateAddButton(currentVariant) {
 
     const notificationButton = document.getElementById('notification-button');
     if (notificationButton && notificationButton.dataset[currentVariant.id]) {
-      if (notificationButton.dataset[this.currentVariant.id] == "1")
+      if (notificationButton.dataset[currentVariant.id] == "1")
         notificationButton.classList.remove('display-none')
       else 
         notificationButton.classList.add('display-none')
