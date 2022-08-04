@@ -25,9 +25,9 @@ window.addEventListener('popstate',()=>{
 });
 
 window.addEventListener('locationchange', () => {
-  const regex1 = RegExp('variant=(\d*)$', 'g');
-  var result = regex1.exec(document.location)
   console.log(`location: ${document.location}`)
+  const regex1 = RegExp('variant=(\\d*)$', 'g');
+  var result = regex1.exec(document.location)
   if (result) {
     console.log(`variant: ${result[1]}`)
     var currentVariant = this.getProductVariantData().find((variant) => result[1] == variant.id.toString());
