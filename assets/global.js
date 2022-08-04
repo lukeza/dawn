@@ -32,10 +32,10 @@ window.addEventListener('locationchange', () => {
     console.log(`variant: ${result[1]}`)
     var currentVariant = this.getProductVariantData().find((variant) => result[1] == variant.id.toString());
     if (currentVariant) {
+      console.log(currentVariant)
       updateAddButton(currentVariant)
     }
   }
-  //variant=41781849358521
 });
 
 var productVariantData
