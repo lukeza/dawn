@@ -84,6 +84,50 @@
         "padding_bottom": 36
       }
     },
+    "166007999655bdb4ee": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660079996b872adc6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF64P Espresso Only",
+            "heading_size": "h1"
+          }
+        },
+        "1660079996b872adc6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64P Premium espresso grinder is designed for espresso only. It features the wood accents and comes with Italian made ItalMill 64mm titanium coated flat burrs. This grinder has delivers true zero retention and the finest adjustment.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1660079996b872adc6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64p-premium-single-dose-espresso-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "1660079996b872adc6-0",
+        "1660079996b872adc6-1",
+        "1660079996b872adc6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/yt_o_small_9069eb95-d5ee-4393-84d8-cbdd0adc80c8.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -115,6 +159,7 @@
   "order": [
     "image_banner",
     "image_text",
+    "166007999655bdb4ee",
     "featured_collection"
   ]
 }
