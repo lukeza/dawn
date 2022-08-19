@@ -54,9 +54,9 @@ function fixMedia(variantData) {
     if (found) {
       found.querySelectorAll('img').forEach((i => {
         const oldSrc = i.getAttribute("src")
-        if (oldSrc != v.featured_media.preview_image.src) {
+        if (!v.featured_media.preview_image.src.startsWith(oldSrc)) {
           console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
-          i.setAttribute(v.featured_media.preview_image.src)
+          i.setAttribute("src", v.featured_media.preview_image.src)
         }
       }))
     }
