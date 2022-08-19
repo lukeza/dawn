@@ -41,13 +41,12 @@ window.addEventListener('locationchange', () => {
 });
 
 function fixMedia(variantData) {
-  var mediaList = document.querySelector('.product__media-list')
-  var allTags = mediaList.querySelectorAll('[data-media-id]')
+  var allTags = document.querySelector('.product__media-list').children
   variantData.forEach((v) => {
     if (!v.featured_media || !v.featured_media.preview_image || !v.featured_media.preview_image.src) return;
     var found
-    for (t in allTags) {
-      if (t.id.endsWith('-' + v.featured_media.id)) {
+    for (var i = 0; i < allTags.length; i++) {
+      if (allTags[i].id.endsWith('-' + v.featured_media.id)) {
         found = t
         break
       }
