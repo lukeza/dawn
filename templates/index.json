@@ -128,6 +128,78 @@
         "padding_bottom": 36
       }
     },
+    "1660875319b8b7ff2d": {
+      "type": "featured-product",
+      "blocks": {
+        "1660875318cfc60994-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1660875318cfc60994-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1660875318cfc60994-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1660875318cfc60994-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1660875318cfc60994-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1660875318cfc60994-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1660875318cfc60994-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1660875318cfc60994-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1660875318cfc60994-0",
+        "1660875318cfc60994-1",
+        "1660875318cfc60994-2",
+        "1660875318cfc60994-3",
+        "1660875318cfc60994-4",
+        "1660875318cfc60994-5",
+        "1660875318cfc60994-6",
+        "1660875318cfc60994-7"
+      ],
+      "settings": {
+        "product": "miicoffee-df64e-electronic-dosing-espresso-grinder",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -160,6 +232,7 @@
     "image_banner",
     "image_text",
     "166007999655bdb4ee",
+    "1660875319b8b7ff2d",
     "featured_collection"
   ]
 }
