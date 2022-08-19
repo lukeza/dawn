@@ -47,7 +47,7 @@ function fixMedia(variantData) {
     var found
     for (var i = 0; i < allTags.length; i++) {
       if (allTags[i].id.endsWith('-' + v.featured_media.id)) {
-        found = t
+        found = allTags[i]
         break
       }
     }
