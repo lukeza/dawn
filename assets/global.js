@@ -52,8 +52,7 @@ function fixMedia(variantData) {
       }
     }
     if (found) {
-      console.log(found)
-      v.querySelectorAll('img').forEach((i => {
+      found.querySelectorAll('img').forEach((i => {
         const oldSrc = i.getAttribute(src)
         if (oldSrc != v.featured_media.preview_image.src) {
           console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
