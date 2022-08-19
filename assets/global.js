@@ -55,7 +55,7 @@ function fixMedia(variantData) {
       found.querySelectorAll('img').forEach((i => {
         const oldSrc = i.getAttribute("src")
         const newSrc = v.featured_media.preview_image.src.startsWith('https:') ? v.featured_media.preview_image.src.substring(6) : v.featured_media.preview_image.src
-        if (!oldSrc.startsWith(newSrc)) {
+        if (!oldSrc.startsWith(newSrc) && v.featured_media.preview_image.src != oldSrc) {
           console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
           i.setAttribute("src", v.featured_media.preview_image.src)
         }
