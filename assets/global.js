@@ -41,10 +41,17 @@ window.addEventListener('locationchange', () => {
 });
 
 function fixMedia(variantData) {
-  var allTags = document.querySelectorAll('[data-media-id]')
+  var mediaList = document.querySelector('.product__media-list')
+  var allTags = mediaList.querySelectorAll('[data-media-id]')
   variantData.forEach((v) => {
     if (!v.featured_media || !v.featured_media.preview_image || !v.featured_media.preview_image.src) return;
-    const found = allTags.find(t => t.id.endsWith('-' + v.featured_media.id));
+    var found
+    for (t in allTags) {
+      if (t.id.endsWith('-' + v.featured_media.id)) {
+        found = t
+        break
+      }
+    }
     if (found) {
       console.log(found)
       v.querySelectorAll('img').forEach((i => {
