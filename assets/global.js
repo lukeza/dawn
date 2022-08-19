@@ -33,7 +33,7 @@ window.addEventListener('locationchange', () => {
     var variantData = getProductVariantData()
     var currentVariant = variantData.find((variant) => result[1] == variant.id.toString());
     if (currentVariant) {
-      console.log(currentVariant)
+      //console.log(currentVariant)
       updateAddButton(currentVariant)
       fixMedia(variantData)
     }
@@ -54,7 +54,9 @@ function fixMedia(variantData) {
     if (found) {
       found.querySelectorAll('img').forEach((i => {
         const oldSrc = i.getAttribute("src")
-        if (!v.featured_media.preview_image.src.startsWith(oldSrc)) {
+        const newSrc = v.featured_media.preview_image.src 
+        newSrc = newSrc.startsWith('https:') ? newSrc.substring(6) : newSrc
+        if (!oldSrc.startsWith(newSrc)) {
           console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
           i.setAttribute("src", v.featured_media.preview_image.src)
         }
