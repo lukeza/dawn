@@ -30,13 +30,33 @@ window.addEventListener('locationchange', () => {
   var result = regex1.exec(document.location)
   if (result) {
     console.log(`variant: ${result[1]}`)
-    var currentVariant = getProductVariantData().find((variant) => result[1] == variant.id.toString());
+    var variantData = getProductVariantData()
+    var currentVariant = variantData.find((variant) => result[1] == variant.id.toString());
     if (currentVariant) {
       console.log(currentVariant)
       updateAddButton(currentVariant)
+      fixMedia(variantData)
     }
   }
 });
+
+function fixMedia(variantData) {
+  var allTags = document.querySelectorAll('[data-media-id]')
+  variantData.forEach((v) => {
+    if (!v.featured_media || !v.featured_media.preview_image || !v.featured_media.preview_image.src) return;
+    const found = allTags.find(t => t.id.endsWith('-' + v.featured_media.id));
+    if (found) {
+      console.log(found)
+      v.querySelectorAll('img').forEach((i => {
+        const oldSrc = i.getAttribute(src)
+        if (oldSrc != v.featured_media.preview_image.src) {
+          console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
+          i.setAttribute(v.featured_media.preview_image.src)
+        }
+      }))
+    }
+  })
+}
 
 var productVariantData
 function getProductVariantData() {
