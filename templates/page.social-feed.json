@@ -8,13 +8,43 @@
         "padding_bottom": 36
       }
     },
+    "16613573058bf36c2c": {
+      "type": "rich-text",
+      "blocks": {
+        "1661357305f4929ac2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Follow us on Instagram <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1661357305f4929ac2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https:\/\/www.instagram.com\/miicoffee.shop\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/miicoffee.shop\">@miicoffee.shop<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1661357305f4929ac2-0",
+        "1661357305f4929ac2-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16307305551a0c3763": {
       "type": "apps",
       "blocks": {
         "2ab5106b-85a6-466f-bbea-d10c162ad927": {
           "type": "shopify:\/\/apps\/instagram-feed-test\/blocks\/app-block\/43abe13e-3b0a-415f-acd3-a6d4646c8920",
           "settings": {
-            "heading": "Follow us on Instagram",
+            "heading": "",
             "feed_type": "1",
             "post_size": 10,
             "column_size": ""
@@ -31,6 +61,7 @@
   },
   "order": [
     "main",
+    "16613573058bf36c2c",
     "16307305551a0c3763"
   ]
 }
