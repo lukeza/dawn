@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -13,7 +14,10 @@
         "2ab5106b-85a6-466f-bbea-d10c162ad927": {
           "type": "shopify:\/\/apps\/instagram-feed-test\/blocks\/app-block\/43abe13e-3b0a-415f-acd3-a6d4646c8920",
           "settings": {
-            "heading": "Follow us on Instagram"
+            "heading": "Follow us on Instagram",
+            "feed_type": "1",
+            "post_size": 10,
+            "column_size": ""
           }
         }
       },
