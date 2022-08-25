@@ -177,10 +177,12 @@
             {% comment %} uncomment once gcr rating is available
             <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
             <g:ratingbadge merchant_id="467891100"></g:ratingbadge> 
-            https://customerreviews.google.com/v/merchant?q=miicoffee.shop&c=US&v=17
+            
             {% endcomment %}
             <div>
-              <img src="{{ 'gcr.png' | asset_img_url }}" width="159" height="49" alt="" class="shadow" />
+              <a href="https://customerreviews.google.com/v/merchant?q=miicoffee.shop&c=US&v=17" target="_blank">
+                <img src="{{ 'gcr.png' | asset_img_url }}" alt="" class="shadow" />
+              </a>
             </div>
           </div>
 
