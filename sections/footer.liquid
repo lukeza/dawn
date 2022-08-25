@@ -176,12 +176,14 @@
             {%- endif -%}
             {% comment %} uncomment once gcr rating is available
             <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
-            <g:ratingbadge merchant_id="467891100"></g:ratingbadge> 
-            
+            <g:ratingbadge merchant_id="467891100"></g:ratingbadge>
             {% endcomment %}
             <div>
               <a href="https://customerreviews.google.com/v/merchant?q=miicoffee.shop&c=US&v=17" target="_blank">
                 <img src="{{ 'gcr.jpg' | asset_img_url: 'medium' }}" width="120" height="78" alt="" class="shadow" />
+              </a>
+              <a href="https://www.amazon.com/stores/MiiCoffee/page/00F7490A-1083-4748-AAC5-3B22E6EBD0CE" target="_blank">
+                <img src="{{ 'amazon.jpg' | asset_img_url: 'medium' }}" width="214" height="78" alt="" class="shadow" />
               </a>
             </div>
           </div>
