@@ -185,15 +185,15 @@
         "166272788996a5aff2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Coming Soon and sign up for in stock notification<\/p>",
             "text_style": "body"
           }
         },
         "166272788996a5aff2-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Get Notification",
+            "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
           }
         }
       },
@@ -203,6 +203,7 @@
         "166272788996a5aff2-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/main_eb7b8445-0d45-4fe4-ba12-d9fed21c6fe8.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
