@@ -45,9 +45,9 @@
           "type": "shopify:\/\/apps\/socialembed-instagram-feed\/blocks\/app-block\/a3a813a9-fd68-4118-84b9-44ecdecd106f",
           "settings": {
             "heading": "",
-            "feed_type": "1",
-            "post_size": 10,
-            "column_size": ""
+            "feed_type": "2",
+            "post_size": 20,
+            "column_size": "2"
           }
         }
       },
