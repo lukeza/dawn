@@ -11,6 +11,12 @@
         "heading": ""
       }
     },
+    "16630319870985a793": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "16593876593eadfb0b": {
       "type": "apps",
       "settings": {
@@ -21,6 +27,7 @@
   "order": [
     "main",
     "form",
+    "16630319870985a793",
     "16593876593eadfb0b"
   ]
 }
