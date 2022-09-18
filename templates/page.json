@@ -7,20 +7,6 @@
     },
     "1641953619c50031f2": {
       "type": "apps",
-      "blocks": {
-        "f2556eed-d5a5-4098-996f-c18619bbe9b5": {
-          "type": "shopify:\/\/apps\/socialembed-instagram-feed\/blocks\/app-block\/a3a813a9-fd68-4118-84b9-44ecdecd106f",
-          "settings": {
-            "heading": "Follow us on Instagram",
-            "feed_type": "2",
-            "post_size": 20,
-            "column_size": ""
-          }
-        }
-      },
-      "block_order": [
-        "f2556eed-d5a5-4098-996f-c18619bbe9b5"
-      ],
       "settings": {
         "include_margins": true
       }
