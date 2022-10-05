@@ -47,7 +47,7 @@
           "type": "heading",
           "settings": {
             "heading": "DF64 Grinder",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -90,8 +90,8 @@
         "1660079996b872adc6-0": {
           "type": "heading",
           "settings": {
-            "heading": "DF64P Upgraded for Espresso",
-            "heading_size": "h1"
+            "heading": "DF64P Espresso Grinder",
+            "heading_size": "h2"
           }
         },
         "1660079996b872adc6-1": {
@@ -135,7 +135,7 @@
           "type": "heading",
           "settings": {
             "heading": "DF64E Electronic Dosing Espresso Grinder",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "16608757157edf7d4d-1": {
@@ -179,7 +179,7 @@
           "type": "heading",
           "settings": {
             "heading": "DF83 Coffee Grinder",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "166272788996a5aff2-1": {
