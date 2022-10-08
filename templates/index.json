@@ -205,7 +205,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/main_eed44d1a-37d7-4998-b1d8-1714e5e5a275.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
