@@ -107,10 +107,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Free shipping on orders over $69",
+              "text": "Free shipping on orders over $69 and we do price match",
               "text_alignment": "center",
               "color_scheme": "accent-2",
-              "link": ""
+              "link": "shopify:\/\/pages\/request-price-match"
             }
           }
         },
