@@ -242,6 +242,50 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
+    },
+    "0d9011ad-d973-43eb-aff8-a2e681dfb70a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "D40 Compact Grinder",
+            "heading_size": "h1"
+          }
+        },
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0",
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1",
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/overall_4398a38b-ef39-4c94-8d2c-4331f1777355.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -250,6 +294,7 @@
     "166007999655bdb4ee",
     "16627278897a6c82cd",
     "1660875715a05baa01",
-    "featured_collection"
+    "featured_collection",
+    "0d9011ad-d973-43eb-aff8-a2e681dfb70a"
   ]
 }
