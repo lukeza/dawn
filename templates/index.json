@@ -40,38 +40,38 @@
         "show_text_below": true
       }
     },
-    "image_text": {
+    "0d9011ad-d973-43eb-aff8-a2e681dfb70a": {
       "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0": {
           "type": "heading",
           "settings": {
-            "heading": "DF64 Single Dose Grinder",
+            "heading": "D40 Compact Grinder",
             "heading_size": "h2"
           }
         },
-        "text": {
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1": {
           "type": "text",
           "settings": {
-            "text": "<p>MiiCoffee DF64 coffee grinder is the ideal \"prosumer\" coffee grinder for single dosing on the market. It comes with made 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. Single dosing is the rage in the espresso aficionado world these days and there aren’t very many good options that don’t cost a ton.<\/p>",
+            "text": "<p>MiiCoffee D40 coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping.<\/p>",
             "text_style": "body"
           }
         },
-        "59f03b66-c1c9-4b9d-be53-dbf2a05d72bf": {
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2": {
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder"
+            "button_link": "shopify:\/\/products\/miicoffee-d40-single-dose-coffee-grinder"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "59f03b66-c1c9-4b9d-be53-dbf2a05d72bf"
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0",
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1",
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/withmachine.jpg",
+        "image": "shopify:\/\/shop_images\/overall_4398a38b-ef39-4c94-8d2c-4331f1777355.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -172,6 +172,50 @@
         "padding_bottom": 36
       }
     },
+    "image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF64 Single Dose Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64 coffee grinder is the ideal \"prosumer\" coffee grinder for single dosing on the market. It comes with made 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. Single dosing is the rage in the espresso aficionado world these days and there aren’t very many good options that don’t cost a ton.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "59f03b66-c1c9-4b9d-be53-dbf2a05d72bf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "59f03b66-c1c9-4b9d-be53-dbf2a05d72bf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/withmachine.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1660875715a05baa01": {
       "type": "image-with-text",
       "blocks": {
@@ -242,59 +286,15 @@
         "padding_top": 28,
         "padding_bottom": 36
       }
-    },
-    "0d9011ad-d973-43eb-aff8-a2e681dfb70a": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "D40 Compact Grinder",
-            "heading_size": "h1"
-          }
-        },
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0",
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1",
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/overall_4398a38b-ef39-4c94-8d2c-4331f1777355.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner",
-    "image_text",
+    "0d9011ad-d973-43eb-aff8-a2e681dfb70a",
     "166007999655bdb4ee",
     "16627278897a6c82cd",
+    "image_text",
     "1660875715a05baa01",
-    "featured_collection",
-    "0d9011ad-d973-43eb-aff8-a2e681dfb70a"
+    "featured_collection"
   ]
 }
