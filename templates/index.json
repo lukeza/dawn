@@ -40,50 +40,6 @@
         "show_text_below": true
       }
     },
-    "0d9011ad-d973-43eb-aff8-a2e681dfb70a": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "D40 Compact Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffee D40 coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-d40-single-dose-coffee-grinder"
-          }
-        }
-      },
-      "block_order": [
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0",
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1",
-        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/overall_4398a38b-ef39-4c94-8d2c-4331f1777355.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16627278897a6c82cd": {
       "type": "image-with-text",
       "blocks": {
@@ -216,6 +172,50 @@
         "padding_bottom": 36
       }
     },
+    "0d9011ad-d973-43eb-aff8-a2e681dfb70a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "D40 Compact Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee D40 coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-d40-single-dose-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-0",
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-1",
+        "template--15886127300793__0d9011ad-d973-43eb-aff8-a2e681dfb70a-16692212949394fe00-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/overall_4398a38b-ef39-4c94-8d2c-4331f1777355.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1660875715a05baa01": {
       "type": "image-with-text",
       "blocks": {
@@ -290,10 +290,10 @@
   },
   "order": [
     "image_banner",
-    "0d9011ad-d973-43eb-aff8-a2e681dfb70a",
     "16627278897a6c82cd",
     "166007999655bdb4ee",
     "image_text",
+    "0d9011ad-d973-43eb-aff8-a2e681dfb70a",
     "1660875715a05baa01",
     "featured_collection"
   ]
