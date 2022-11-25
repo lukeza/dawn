@@ -53,14 +53,14 @@
         "166272788996a5aff2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is much improved from the popular DF64. Its redesgined grinding chamber achieves very low retention without the help of bellow. The wave spring washer holds the top burr carrier and makes grinding super stable. Thanks to its large burr size DF83 is suitable for commercial environment. ETA of stock is currently the end of Nov.<\/p>",
+            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is much improved from the popular DF64. Its redesgined grinding chamber achieves very low retention without the help of bellow. The wave spring washer holds the top burr carrier and makes grinding super stable. Thanks to its large burr size DF83 is suitable for commercial environment.<\/p>",
             "text_style": "body"
           }
         },
         "166272788996a5aff2-2": {
           "type": "button",
           "settings": {
-            "button_label": "Back Order Now",
+            "button_label": "Buy Now",
             "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
           }
         }
