@@ -216,6 +216,50 @@
         "padding_bottom": 36
       }
     },
+    "9d05a312-43f7-4cbc-b9ca-86b2e3703a60": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15886127300793__9d05a312-43f7-4cbc-b9ca-86b2e3703a60-16722825991369b46b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "C38 Personal Grinder",
+            "heading_size": "h1"
+          }
+        },
+        "template--15886127300793__9d05a312-43f7-4cbc-b9ca-86b2e3703a60-16722825991369b46b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee C38 single dose coffee grinder is an affortable compact size single dose coffee grinder. It comes with a DC motor and runs at slow RPM. Along with stainless steel 38mm conical burrs C38 is a perfect pour-over brewing coffee grinder. 120 step grind size adjustment provides precise grinding size tune for espresso as well.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15886127300793__9d05a312-43f7-4cbc-b9ca-86b2e3703a60-16722825991369b46b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-c38-single-dose-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--15886127300793__9d05a312-43f7-4cbc-b9ca-86b2e3703a60-16722825991369b46b-0",
+        "template--15886127300793__9d05a312-43f7-4cbc-b9ca-86b2e3703a60-16722825991369b46b-1",
+        "template--15886127300793__9d05a312-43f7-4cbc-b9ca-86b2e3703a60-16722825991369b46b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main_8bbd8591-2602-4886-858d-ca9b42e7047d.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1660875715a05baa01": {
       "type": "image-with-text",
       "blocks": {
@@ -294,6 +338,7 @@
     "166007999655bdb4ee",
     "image_text",
     "0d9011ad-d973-43eb-aff8-a2e681dfb70a",
+    "9d05a312-43f7-4cbc-b9ca-86b2e3703a60",
     "1660875715a05baa01",
     "featured_collection"
   ]
