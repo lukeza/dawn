@@ -128,6 +128,50 @@
         "padding_bottom": 36
       }
     },
+    "1660875715a05baa01": {
+      "type": "image-with-text",
+      "blocks": {
+        "16608757157edf7d4d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF64E Electronic Dosing Espresso Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "16608757157edf7d4d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64E electronic dosing coffee grinder is designed for espresso only. 225g Hopper along with 3 electronic dosing options make your morning routine relaxed. With a touch of button you will get perfect predefined amount of grinds without the hassle of weighting. The grinder features the wood accents and upgraded version of stock burrs, Italian made 64mm DLC coated flat burrs. The new low clumping design reduces clumping during the grinding cycle providing for a even grinds distribution out of exit chute.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16608757157edf7d4d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64e-electronic-dosing-espresso-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "16608757157edf7d4d-0",
+        "16608757157edf7d4d-1",
+        "16608757157edf7d4d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/withmachine_e5c0c859-1151-4cd0-8291-3a588236f122.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_text": {
       "type": "image-with-text",
       "blocks": {
@@ -260,50 +304,6 @@
         "padding_bottom": 36
       }
     },
-    "1660875715a05baa01": {
-      "type": "image-with-text",
-      "blocks": {
-        "16608757157edf7d4d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DF64E Electronic Dosing Espresso Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "16608757157edf7d4d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffee DF64E electronic dosing coffee grinder is designed for espresso only. 225g Hopper along with 3 electronic dosing options make your morning routine relaxed. With a touch of button you will get perfect predefined amount of grinds without the hassle of weighting. The grinder features the wood accents and upgraded version of stock burrs, Italian made 64mm DLC coated flat burrs. The new low clumping design reduces clumping during the grinding cycle providing for a even grinds distribution out of exit chute.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16608757157edf7d4d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df64e-electronic-dosing-espresso-grinder"
-          }
-        }
-      },
-      "block_order": [
-        "16608757157edf7d4d-0",
-        "16608757157edf7d4d-1",
-        "16608757157edf7d4d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/withmachine_e5c0c859-1151-4cd0-8291-3a588236f122.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -336,10 +336,10 @@
     "image_banner",
     "16627278897a6c82cd",
     "166007999655bdb4ee",
+    "1660875715a05baa01",
     "image_text",
     "0d9011ad-d973-43eb-aff8-a2e681dfb70a",
     "9d05a312-43f7-4cbc-b9ca-86b2e3703a60",
-    "1660875715a05baa01",
     "featured_collection"
   ]
 }
