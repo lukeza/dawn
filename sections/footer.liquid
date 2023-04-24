@@ -230,7 +230,8 @@
               <img src="{{ 'amazon.jpg' | asset_img_url: 'medium' }}" width="214" height="78" alt="" class="shadow" />
             </a>
           </div>
-
+        </div>
+        <div>
           {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
             <div class="footer__follow-on-shop">
               {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
