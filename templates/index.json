@@ -265,6 +265,96 @@
         "padding_bottom": 36
       }
     },
+    "dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18695795638567__dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e-16823553720b5c195a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "D40 Compact Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--18695795638567__dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e-16823553720b5c195a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee D40 single dose coffee grinder is an entry level compact size coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18695795638567__dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e-16823553720b5c195a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-d40-single-dose-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e-16823553720b5c195a-0",
+        "template--18695795638567__dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e-16823553720b5c195a-1",
+        "template--18695795638567__dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e-16823553720b5c195a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main_82cdd7e3-71ce-43ce-92f9-e2fb19333880.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ab2ce546-3943-4d90-a167-9fea0b29ee70": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18695795638567__ab2ce546-3943-4d90-a167-9fea0b29ee70-16823553720b5c195a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "C38 Personal Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--18695795638567__ab2ce546-3943-4d90-a167-9fea0b29ee70-16823553720b5c195a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee C38 single dose coffee grinder is an affortable compact size single dose coffee grinder. It comes with a DC motor and runs at slow RPM. Along with stainless steel 38mm conical burrs C38 is a perfect pour-over brewing coffee grinder. 120 step grind size adjustment provides precise grinding size tune for espresso as well.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18695795638567__ab2ce546-3943-4d90-a167-9fea0b29ee70-16823553720b5c195a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-c38-single-dose-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__ab2ce546-3943-4d90-a167-9fea0b29ee70-16823553720b5c195a-0",
+        "template--18695795638567__ab2ce546-3943-4d90-a167-9fea0b29ee70-16823553720b5c195a-1",
+        "template--18695795638567__ab2ce546-3943-4d90-a167-9fea0b29ee70-16823553720b5c195a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main_8bbd8591-2602-4886-858d-ca9b42e7047d.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -300,6 +390,8 @@
     "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
     "a6ac78d5-1120-469f-83f6-9ff07173596c",
     "eae63502-c8ea-470d-9f5e-c460d7f2d034",
+    "dbf132d6-d2b0-4e44-a58a-fc4f6ebaa76e",
+    "ab2ce546-3943-4d90-a167-9fea0b29ee70",
     "featured_collection"
   ]
 }
