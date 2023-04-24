@@ -150,8 +150,8 @@
         "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64p-premium-single-dose-espresso-grinder"
           }
         }
       },
