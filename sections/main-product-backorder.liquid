@@ -448,9 +448,11 @@
     {%- endif -%}
   </div>
 
+  <div>MyTest</div>
+  <div>{{product.metafields}}</div>
+
   {% render 'product-media-modal' variant_images: variant_images %}
 
-  <div>{{product.metafields}}</div>
   {% assign notification_form = product.metafields.my_fields.notification_formid %}
   {%- if notification_form -%}
     <modal-dialog id="PopupModal-{{ notification_form }}" class="product-popup-modal" {{ block.shopify_attributes }}>
