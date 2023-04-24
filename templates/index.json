@@ -40,6 +40,50 @@
         "show_text_below": true
       }
     },
+    "d553e683-687d-4550-be7a-cdd680c235f9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15886127300793__d553e683-687d-4550-be7a-cdd680c235f9-1682303904d956451b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF64V Variable Speed Single Dose Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--15886127300793__d553e683-687d-4550-be7a-cdd680c235f9-1682303904d956451b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64V variable speed single dose coffee grinder is small but mighty. This grinder is suitable for both home use and business. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15886127300793__d553e683-687d-4550-be7a-cdd680c235f9-1682303904d956451b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--15886127300793__d553e683-687d-4550-be7a-cdd680c235f9-1682303904d956451b-0",
+        "template--15886127300793__d553e683-687d-4550-be7a-cdd680c235f9-1682303904d956451b-1",
+        "template--15886127300793__d553e683-687d-4550-be7a-cdd680c235f9-1682303904d956451b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/all.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16627278897a6c82cd": {
       "type": "image-with-text",
       "blocks": {
@@ -334,6 +378,7 @@
   },
   "order": [
     "image_banner",
+    "d553e683-687d-4550-be7a-cdd680c235f9",
     "16627278897a6c82cd",
     "166007999655bdb4ee",
     "1660875715a05baa01",
