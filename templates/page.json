@@ -2,66 +2,13 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "e1f03cc6-9473-4071-853b-cffa77a51c2c": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18695795769639__e1f03cc6-9473-4071-853b-cffa77a51c2c-168235903343fa73cc-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Follow us on Instagram",
-            "heading_size": "h1"
-          }
-        },
-        "template--18695795769639__e1f03cc6-9473-4071-853b-cffa77a51c2c-168235903343fa73cc-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"https:\/\/www.instagram.com\/miicoffee.shop\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/miicoffee.shop\">@miicoffee.shop<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18695795769639__e1f03cc6-9473-4071-853b-cffa77a51c2c-168235903343fa73cc-0",
-        "template--18695795769639__e1f03cc6-9473-4071-853b-cffa77a51c2c-168235903343fa73cc-1"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "16823589257ee0c1d1": {
-      "type": "apps",
-      "blocks": {
-        "fb09b331-7d72-47d1-9edc-f576207159ae": {
-          "type": "shopify:\/\/apps\/socialembed-instagram-feed\/blocks\/app-block\/a3a813a9-fd68-4118-84b9-44ecdecd106f",
-          "settings": {
-            "heading": "",
-            "feed_type": "2",
-            "post_size": 20,
-            "column_size": "2"
-          }
-        }
-      },
-      "block_order": [
-        "fb09b331-7d72-47d1-9edc-f576207159ae"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
-    "main",
-    "e1f03cc6-9473-4071-853b-cffa77a51c2c",
-    "16823589257ee0c1d1"
+    "main"
   ]
 }
