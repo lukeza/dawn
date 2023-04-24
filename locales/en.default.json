@@ -473,9 +473,6 @@
       "powered_by_shopify": " "
     },
     "checkout": {
-      "contact": {
-        "shipping_address_title": "Shipping address (No PO Box)"
-      },
       "order_summary": {
         "estimated_taxes_label": "Estimated Taxes (WA only):"
       },
