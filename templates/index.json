@@ -130,6 +130,51 @@
         "padding_bottom": 36
       }
     },
+    "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF64P Premium Single Dose Espresso Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64P single dose espresso grinder is designed for espresso only. It features the wood accents and comes with Italian made ItalMill 64mm Titanium coated flat burrs. This grinder has delivers true zero retention and the finest adjustment.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-0",
+        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-1",
+        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_0474.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -162,6 +207,7 @@
     "image_banner",
     "e2d0aeb4-60b7-438c-a624-6e96e8142887",
     "2eb1cfad-b511-464e-9a46-43729e8de033",
+    "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
     "featured_collection"
   ]
 }
