@@ -6,21 +6,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Gears for Home Barista",
             "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Discover",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -31,12 +24,12 @@
       },
       "block_order": [
         "heading",
-        "text",
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_117570571.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -47,34 +40,94 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "e2d0aeb4-60b7-438c-a624-6e96e8142887": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading": "DF64V Variable Speed Single Dose Grinder",
+            "heading_size": "h2"
           }
         },
-        "text": {
+        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>MiiCoffee DF64V variable speed single dose coffee grinder is small but mighty. This grinder is suitable for both home use and business. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-0",
+        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-1",
+        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/all2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "2eb1cfad-b511-464e-9a46-43729e8de033": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF83 Coffee Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is much improved from the popular DF64. Its redesgined grinding chamber achieves very low retention without the help of bellow. The wave spring washer holds the top burr carrier and makes grinding super stable. Thanks to its large burr size DF83 is suitable for commercial environment.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-0",
+        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-1",
+        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/overall.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_collection": {
@@ -107,7 +160,8 @@
   },
   "order": [
     "image_banner",
-    "rich_text",
+    "e2d0aeb4-60b7-438c-a624-6e96e8142887",
+    "2eb1cfad-b511-464e-9a46-43729e8de033",
     "featured_collection"
   ]
 }
