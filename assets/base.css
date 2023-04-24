@@ -730,6 +730,10 @@ details > * {
   visibility: hidden;
 }
 
+.display-none {
+  display:none;
+}
+
 @media (prefers-reduced-motion) {
   .motion-reduce {
     transition: none !important;
@@ -3146,4 +3150,14 @@ details-disclosure > details {
     0% { transform: rotate(0deg) translateX(1em) rotate(0deg) scale(1.2); }
     100% { transform: rotate(360deg) translateX(1em) rotate(-360deg) scale(1.2); }
   }
+}
+
+img.shadow {
+  border: 0.0625rem solid #a9acaa;
+  border-radius: 0.125rem;
+  box-shadow: 0 .125rem .25remrgba(0, 0, 0, 0.2);
+}
+
+a.badge {
+  padding: 0px 8px
 }

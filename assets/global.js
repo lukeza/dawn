@@ -6,6 +6,109 @@ function getFocusableElements(container) {
   );
 }
 
+history.pushState = ( f => function pushState(){
+  var ret = f.apply(this, arguments);
+  console.log('pushState')
+  window.dispatchEvent(new Event('locationchange'));
+  return ret;
+})(history.pushState);
+
+history.replaceState = ( f => function replaceState(){
+  var ret = f.apply(this, arguments);
+  console.log('replaceState')
+  window.dispatchEvent(new Event('locationchange'));
+  return ret;
+})(history.replaceState);
+
+window.addEventListener('popstate',()=>{
+  window.dispatchEvent(new Event('locationchange'))
+});
+
+window.addEventListener('locationchange', () => {
+  console.log(`location: ${document.location}`)
+  const regex1 = RegExp('variant=(\\d*)$', 'g');
+  var result = regex1.exec(document.location)
+  if (result) {
+    console.log(`variant: ${result[1]}`)
+    var variantData = getProductVariantData()
+    var currentVariant = variantData.find((variant) => result[1] == variant.id.toString());
+    if (currentVariant) {
+      //console.log(currentVariant)
+      updateAddButton(currentVariant)
+      //fixMedia(variantData)
+    }
+  }
+});
+
+function fixMedia(variantData) {
+  var allTags = document.querySelector('.product__media-list').children
+  variantData.forEach((v) => {
+    if (!v.featured_media || !v.featured_media.preview_image || !v.featured_media.preview_image.src) return;
+    var found
+    for (var i = 0; i < allTags.length; i++) {
+      if (allTags[i].id.endsWith('-' + v.featured_media.id)) {
+        found = allTags[i]
+        break
+      }
+    }
+    if (found) {
+      found.querySelectorAll('img').forEach((i => {
+        const oldSrc = i.getAttribute("src")
+        const newSrc = v.featured_media.preview_image.src.startsWith('https:') ? v.featured_media.preview_image.src.substring(6) : v.featured_media.preview_image.src
+        if (!oldSrc.startsWith(newSrc) && v.featured_media.preview_image.src != oldSrc) {
+          console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
+          i.setAttribute("src", v.featured_media.preview_image.src)
+        }
+      }))
+    }
+  })
+}
+
+var productVariantData
+function getProductVariantData() {
+  productVariantData = productVariantData || JSON.parse(document.querySelector('#product-variants').textContent);
+  return productVariantData;
+}
+
+function updateAddButton(currentVariant) {
+  const productForm = document.querySelector(`product-form`);
+  if (!productForm) return;
+  const addButton = productForm.querySelector('[name="add"]');
+  const addButtonText = productForm.querySelector('[name="add"] > span');
+  if (!addButton) return;
+
+  if (!currentVariant.available) {
+    addButton.setAttribute('disabled', 'disabled');
+    if (text) updateButtonText(currentVariant, addButtonText, window.variantStrings.soldOut);
+  } else {
+    addButton.removeAttribute('disabled');
+    updateButtonText(currentVariant, addButtonText, window.variantStrings.addToCart);
+  }
+
+  if (currentVariant) {
+    const varientInventoryText = document.getElementById('variant-inventory');
+    if (varientInventoryText && varientInventoryText.dataset[currentVariant.id]) {
+      varientInventoryText.textContent = varientInventoryText.dataset[currentVariant.id];
+    }
+
+    const notificationButton = document.getElementById('notification-button');
+    if (notificationButton && notificationButton.dataset[currentVariant.id]) {
+      if (notificationButton.dataset[currentVariant.id] == "1")
+        notificationButton.classList.remove('display-none')
+      else 
+        notificationButton.classList.add('display-none')
+    }
+  }
+}
+
+function updateButtonText(currentVariant, addButtonText, text) {
+  if (currentVariant && addButtonText.dataset[currentVariant.id]) {
+    addButtonText.textContent = addButtonText.dataset[currentVariant.id];
+  } else {
+    addButtonText.textContent = text
+  }
+}
+
 document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.setAttribute('role', 'button');
   summary.setAttribute('aria-expanded', summary.parentNode.hasAttribute('open'));
@@ -967,13 +1070,36 @@ class VariantSelects extends HTMLElement {
 
     if (disable) {
       addButton.setAttribute('disabled', 'disabled');
-      if (text) addButtonText.textContent = text;
+      if (text) this.setButtonText(addButtonText, text);
     } else {
       addButton.removeAttribute('disabled');
-      addButtonText.textContent = window.variantStrings.addToCart;
+      this.setButtonText(addButtonText, window.variantStrings.addToCart);
+    }
+
+    if (this.currentVariant) {
+      const varientInventoryText = document.getElementById('variant-inventory');
+      if (varientInventoryText && varientInventoryText.dataset[this.currentVariant.id]) {
+        varientInventoryText.textContent = varientInventoryText.dataset[this.currentVariant.id];
+      }
+
+      const notificationButton = document.getElementById('notification-button');
+      if (notificationButton && notificationButton.dataset[this.currentVariant.id]) {
+        if (notificationButton.dataset[this.currentVariant.id] == "1")
+          notificationButton.classList.remove('display-none')
+        else 
+          notificationButton.classList.add('display-none')
+      }
     }
 
     if (!modifyClass) return;
+  }
+
+  setButtonText(addButtonText, text) {
+    if (this.currentVariant && addButtonText.dataset[this.currentVariant.id]) {
+      addButtonText.textContent = addButtonText.dataset[this.currentVariant.id];
+    } else {
+      addButtonText.textContent = text
+    }
   }
 
   setUnavailable() {
