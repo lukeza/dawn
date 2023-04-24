@@ -450,6 +450,7 @@
 
   {% render 'product-media-modal' variant_images: variant_images %}
 
+  <div>{{product.metafields}}</div>
   {% assign notification_form = product.metafields.my_fields.notification_formid %}
   {%- if notification_form -%}
     <modal-dialog id="PopupModal-{{ notification_form }}" class="product-popup-modal" {{ block.shopify_attributes }}>
@@ -461,7 +462,7 @@
       </div>
     </modal-dialog>
   {%- endif -%}
-  
+
   {% assign popups = section.blocks | where: 'type', 'popup' %}
   {%- for block in popups -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
