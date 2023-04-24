@@ -306,7 +306,7 @@
                 block: block,
                 share_link: share_url
               %}
-
+              <div>MyTest</div>
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
@@ -448,7 +448,6 @@
     {%- endif -%}
   </div>
 
-  <div>MyTest</div>
   <div>{{product.metafields}}</div>
 
   {% render 'product-media-modal' variant_images: variant_images %}
