@@ -35,34 +35,9 @@ window.addEventListener('locationchange', () => {
     if (currentVariant) {
       //console.log(currentVariant)
       updateAddButton(currentVariant)
-      //fixMedia(variantData)
     }
   }
 });
-
-function fixMedia(variantData) {
-  var allTags = document.querySelector('.product__media-list').children
-  variantData.forEach((v) => {
-    if (!v.featured_media || !v.featured_media.preview_image || !v.featured_media.preview_image.src) return;
-    var found
-    for (var i = 0; i < allTags.length; i++) {
-      if (allTags[i].id.endsWith('-' + v.featured_media.id)) {
-        found = allTags[i]
-        break
-      }
-    }
-    if (found) {
-      found.querySelectorAll('img').forEach((i => {
-        const oldSrc = i.getAttribute("src")
-        const newSrc = v.featured_media.preview_image.src.startsWith('https:') ? v.featured_media.preview_image.src.substring(6) : v.featured_media.preview_image.src
-        if (!oldSrc.startsWith(newSrc) && v.featured_media.preview_image.src != oldSrc) {
-          console.log(`fixed ${oldSrc} to ${v.featured_media.preview_image.src}`)
-          i.setAttribute("src", v.featured_media.preview_image.src)
-        }
-      }))
-    }
-  })
-}
 
 var productVariantData
 function getProductVariantData() {
