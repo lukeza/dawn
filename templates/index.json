@@ -220,6 +220,51 @@
         "padding_bottom": 36
       }
     },
+    "eae63502-c8ea-470d-9f5e-c460d7f2d034": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "DF64E Electronic Dosing Espresso Grinder",
+            "heading_size": "h2"
+          }
+        },
+        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64E electronic dosing coffee grinder is designed for espresso only. 225g Hopper along with 3 electronic dosing options make your morning routine relaxed. With a touch of button you will get perfect predefined amount of grinds without the hassle of weighting. The grinder features the wood accents and upgraded version of stock burrs, Italian made 64mm DLC coated flat burrs. The new low clumping design reduces clumping during the grinding cycle providing for a even grinds distribution out of exit chute.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64e-electronic-dosing-espresso-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-0",
+        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-1",
+        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/withmachine_e5c0c859-1151-4cd0-8291-3a588236f122.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -254,6 +299,7 @@
     "2eb1cfad-b511-464e-9a46-43729e8de033",
     "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
     "a6ac78d5-1120-469f-83f6-9ff07173596c",
+    "eae63502-c8ea-470d-9f5e-c460d7f2d034",
     "featured_collection"
   ]
 }
