@@ -282,10 +282,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/main_8bbd8591-2602-4886-858d-ca9b42e7047d.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "C38 Personal Grinder",
+            "text": "<p>MiiCoffee C38 single dose coffee grinder is an affortable compact size single dose coffee grinder. It comes with a DC motor and runs at slow RPM. Along with stainless steel 38mm conical burrs C38 is a perfect pour-over brewing coffee grinder. 120 step grind size adjustment provides precise grinding size tune for espresso as well.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-c38-single-dose-coffee-grinder"
           }
         }
       },
