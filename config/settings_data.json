@@ -125,7 +125,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/mii_store-small.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/mii_store-01.png",
     "checkout_accent_color": "#df711b",
     "checkout_button_color": "#df711b",
     "sections": {
