@@ -55,6 +55,48 @@
         "padding_bottom": 36
       }
     },
+    "0bca30df-8008-446e-9c40-ea5fdfd06b09": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "ETA Aug 31 if pre-order today",
+            "heading_size": "h2"
+          }
+        },
+        "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee DF64 II single dose coffee grinder is complete re-design of the old populate DF64 grinder. It integrated the best elements from DF64V and DF83. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber  absolutely stable. At the same time it achieves minimal retention at the new level.  The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF64 II now comes with custom made stainless steel 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.<\/p>"
+          }
+        },
+        "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pre-Order Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64-ii-single-dose-coffee-grinder",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1",
+        "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-text-1",
+        "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "e2d0aeb4-60b7-438c-a624-6e96e8142887": {
       "type": "image-with-text",
       "blocks": {
@@ -356,6 +398,7 @@
   "order": [
     "image_banner",
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
+    "0bca30df-8008-446e-9c40-ea5fdfd06b09",
     "e2d0aeb4-60b7-438c-a624-6e96e8142887",
     "2eb1cfad-b511-464e-9a46-43729e8de033",
     "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
