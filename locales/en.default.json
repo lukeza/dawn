@@ -481,6 +481,9 @@
       },
       "shipping": {
         "title": "Delivery (No PO BOX)"
+      },
+      "contact": {
+        "address_title": "Address (No PO Box)"
       }
     }
   }
