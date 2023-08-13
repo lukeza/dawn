@@ -478,6 +478,9 @@
       },
       "delivery_options": {
         "shipping_address": "Shipping address (No PO Box)"
+      },
+      "shipping": {
+        "title": "Delivery (No PO BOX)"
       }
     }
   }
