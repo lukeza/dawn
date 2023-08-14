@@ -480,7 +480,7 @@
         "shipping_address": "Shipping address (No PO Box)"
       },
       "shipping": {
-        "title": "Delivery (No PO BOX)"
+        "title": "Delivery (No PO Box)"
       },
       "contact": {
         "address_title": "Address"
