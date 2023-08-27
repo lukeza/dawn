@@ -61,7 +61,7 @@
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "ETA Aug 31 if pre-order today",
+            "heading": "ETA Sep 20 if pre-order today",
             "heading_size": "h2"
           }
         },
@@ -234,7 +234,6 @@
     },
     "eae63502-c8ea-470d-9f5e-c460d7f2d034": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-0": {
           "type": "heading",
@@ -263,6 +262,7 @@
         "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-1",
         "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/front.jpg",
         "height": "adapt",
