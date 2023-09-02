@@ -128,7 +128,7 @@
         "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/overview3_s.jpg",
+        "image": "shopify:\/\/shop_images\/overview4.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -284,7 +284,6 @@
         "cb1c5e17-a530-4f24-b5da-d4fd2ede0e2c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/box2-01.jpg",
             "title": "PT1 Portable Electric Coffee Grinder",
             "text": "<p>MiiCoffee PT1 portable coffee grinder is a small coffee grinder that can be carried around easily. With the full metal construction it is guaranteed to last longer. The stainless steel conical burrs that deliver a consistent grind. 80 click adjustment provides grinding sizes that covers espresso, pour over coffee to French press. The built-in 800mAh battery can last 15 to 20 grinds. It supports most fast charging USB-C chargers.<\/p>",
             "link_label": "Buy Now",
