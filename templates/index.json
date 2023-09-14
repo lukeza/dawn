@@ -61,7 +61,7 @@
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "ETA Sep 15 if pre-order today",
+            "heading": "In Stock & Ready to Ship",
             "heading_size": "h2"
           }
         },
@@ -74,7 +74,7 @@
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Pre-Order Now",
+            "button_label": "Buy Now",
             "button_link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder",
             "button_style_secondary": false,
             "button_label_2": "",
