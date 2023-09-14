@@ -97,6 +97,55 @@
         "padding_bottom": 52
       }
     },
+    "f59ea35a-a42a-4184-85c3-772e4ef7a6bc": {
+      "type": "video",
+      "settings": {
+        "heading": "MiiCoffee D40+ Single Dose Coffee Grinder",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/fHF9RM6Y6CQ",
+        "cover_image": "shopify:\/\/shop_images\/video_thumb_f20cb937-bcee-4f70-b4a6-a2d704fe7114.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "b22362ee-533b-44de-95d6-3b97bda5847d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18695795638567__b22362ee-533b-44de-95d6-3b97bda5847d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. The forward tilted aluminum body helps reduce retention. This small coffee grinder has clean design. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. The 58mm aluminum dosing cup has a magnetic bottom and it sits on the grinding seat firmly. The patterns on the side of the dosing cup gives a nice grip when you hold it. There is a ridge on close to the top of dosing cup. It can rest on top of 58mm Portafilter. It allows moving grinding to portafilter without fuss.<\/p>"
+          }
+        },
+        "template--18695795638567__b22362ee-533b-44de-95d6-3b97bda5847d-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__b22362ee-533b-44de-95d6-3b97bda5847d-text-1",
+        "template--18695795638567__b22362ee-533b-44de-95d6-3b97bda5847d-button-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "e2d0aeb4-60b7-438c-a624-6e96e8142887": {
       "type": "image-with-text",
       "blocks": {
@@ -355,6 +404,8 @@
     "image_banner",
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
     "0bca30df-8008-446e-9c40-ea5fdfd06b09",
+    "f59ea35a-a42a-4184-85c3-772e4ef7a6bc",
+    "b22362ee-533b-44de-95d6-3b97bda5847d",
     "e2d0aeb4-60b7-438c-a624-6e96e8142887",
     "2eb1cfad-b511-464e-9a46-43729e8de033",
     "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
