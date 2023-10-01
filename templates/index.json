@@ -60,6 +60,7 @@
       "blocks": {
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "In Stock & Ready to Ship",
             "heading_size": "h2"
