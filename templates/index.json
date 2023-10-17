@@ -51,8 +51,8 @@
         "description": "MiiCoffee DF64 II Single Dose Coffee Grinder",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 16,
+        "padding_bottom": 8
       }
     },
     "0bca30df-8008-446e-9c40-ea5fdfd06b09": {
@@ -94,8 +94,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 8,
+        "padding_bottom": 16
       }
     },
     "eed93cc5-cbcd-4394-8b81-d918d54c978d": {
@@ -139,8 +139,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "e2d0aeb4-60b7-438c-a624-6e96e8142887": {
@@ -184,8 +184,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "2eb1cfad-b511-464e-9a46-43729e8de033": {
@@ -229,8 +229,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9": {
@@ -274,8 +274,8 @@
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "5934d19b-0a3d-4cdc-a383-dbb6d0981446": {
@@ -313,13 +313,25 @@
             "button_label": "Buy Now",
             "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
           }
+        },
+        "391599b1-ab47-4d3a-ab66-5723128046f6": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-1",
         "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-2",
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-3"
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-3",
+        "391599b1-ab47-4d3a-ab66-5723128046f6"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
