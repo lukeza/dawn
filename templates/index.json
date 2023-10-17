@@ -105,7 +105,7 @@
           "type": "heading",
           "settings": {
             "heading": "MiiCoffee D40+ Single Dose Coffee Grinder",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-text-1": {
@@ -133,8 +133,8 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "image_behavior": "none",
@@ -178,7 +178,7 @@
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -268,7 +268,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
