@@ -278,6 +278,64 @@
         "padding_bottom": 36
       }
     },
+    "5934d19b-0a3d-4cdc-a383-dbb6d0981446": {
+      "type": "multirow",
+      "blocks": {
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-1": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/df64_d40.jpg",
+            "caption": "An entry level compact coffee grinder",
+            "heading": "MiiCoffee D40+ Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. The forward tilted aluminum body helps reduce retention. This small coffee grinder has clean design. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. The 58mm aluminum dosing cup has a magnetic bottom and it sits on the grinding seat firmly.<\/p>",
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
+          }
+        },
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-2": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overview4.jpg",
+            "caption": "Caption",
+            "heading": "DF64V Variable Speed Single Dose Grinder",
+            "text": "<p>MiiCoffee DF64V variable speed single dose coffee grinder is small but mighty. This grinder is suitable for both home use and business. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with Italian made DLC (Diamond-Like-Carbon) coated 64mm stainless steel flat burrs. DF64V delivers very low retention. The rubber bellow can be used to push air through the grinding chamber and ensure minimal retention of grounds. The magnetic design of exit chute helps achieve consistent grinds cross all ranges. <\/p>",
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
+          }
+        },
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/standing_5224746a-b133-4b43-b595-653d49a5d1a8.jpg",
+            "caption": "Caption",
+            "heading": "DF83 Coffee Grinder",
+            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is much improved from the popular DF64. Its redesgined grinding chamber achieves very low retention without the help of bellow. The wave spring washer holds the top burr carrier and makes grinding super stable. Thanks to its large burr size DF83 is suitable for commercial environment. The latest version comes with plasma generator (aka Ionizer). It works very well and reduces static dramatically.<\/p>",
+            "button_label": "Buy Now",
+            "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-1",
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-2",
+        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-3"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "eae63502-c8ea-470d-9f5e-c460d7f2d034": {
       "type": "image-with-text",
       "blocks": {
@@ -360,6 +418,7 @@
     "e2d0aeb4-60b7-438c-a624-6e96e8142887",
     "2eb1cfad-b511-464e-9a46-43729e8de033",
     "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
+    "5934d19b-0a3d-4cdc-a383-dbb6d0981446",
     "eae63502-c8ea-470d-9f5e-c460d7f2d034",
     "featured_collection"
   ]
