@@ -43,7 +43,7 @@
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7": {
       "type": "video",
       "settings": {
-        "heading": "MiiCoffee DF64 II Single Dose Coffee Grinder",
+        "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "https:\/\/youtu.be\/92DKQaQA4Oc",
@@ -51,7 +51,7 @@
         "description": "MiiCoffee DF64 II Single Dose Coffee Grinder",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 16,
+        "padding_top": 32,
         "padding_bottom": 8
       }
     },
@@ -60,9 +60,8 @@
       "blocks": {
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "In Stock & Ready to Ship",
+            "heading": "MiiCoffee DF64 II Single Dose Coffee Grinder",
             "heading_size": "h2"
           }
         },
