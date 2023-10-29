@@ -97,252 +97,69 @@
         "padding_bottom": 16
       }
     },
-    "eed93cc5-cbcd-4394-8b81-d918d54c978d": {
-      "type": "image-with-text",
+    "b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed": {
+      "type": "multicolumn",
       "blocks": {
-        "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-heading-1": {
-          "type": "heading",
+        "69bdbdd0-960e-46c7-9e40-67ab915f8b32": {
+          "type": "column",
           "settings": {
-            "heading": "MiiCoffee D40+ Single Dose Coffee Grinder",
-            "heading_size": "h2"
+            "image": "shopify:\/\/shop_images\/overview_3_2.jpg",
+            "title": "MiiCoffee D40+ Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. <\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
           }
         },
-        "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-text-1": {
-          "type": "text",
+        "e350f2ab-aada-4252-9168-d52c9202c5a6": {
+          "type": "column",
           "settings": {
-            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. The forward tilted aluminum body helps reduce retention. This small coffee grinder has clean design. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. The 58mm aluminum dosing cup has a magnetic bottom and it sits on the grinding seat firmly. The patterns on the side of the dosing cup gives a nice grip when you hold it. There is a ridge on close to the top of dosing cup. It can rest on top of 58mm Portafilter. It allows moving grinding to portafilter without fuss.<\/p>",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/overview_3_2_e9f22e67-03ec-455b-bb16-d271a98e00d5.jpg",
+            "title": "DF83 Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is rated best coffee grinder between $500 to $1000. Thanks to its large burr size DF83 is suitable for commercial environment. It now comes with plasma generator (aka Ionizer) that reduces static.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
           }
         },
-        "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-button-1": {
-          "type": "button",
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1": {
+          "type": "column",
           "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
+            "image": "shopify:\/\/shop_images\/stall_issue_image.jpg",
+            "title": "DF64V Variable Speed Single Dose Grinder",
+            "text": "<p>MiiCoffee DF64V coffee grinder is small but mighty. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with DLC coated 64mm flat burrs. It delivers very low retention. The magnetic design of exit chute makes cleaning super easy. <\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
+          }
+        },
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overview2_c73bacd2-4f7f-4e42-85d2-7e60b819688f.jpg",
+            "title": "DF64P Single Dose Espresso Grinder",
+            "text": "<p>MiiCoffee DF64P single dose grinder is designed for espresso only. It features the wood accents and comes with custom made 64mm flat burrs. This grinder has delivers zero retention and the finest adjustment.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-df64p-premium-single-dose-espresso-grinder"
           }
         }
       },
       "block_order": [
-        "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-heading-1",
-        "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-text-1",
-        "template--18695795638567__eed93cc5-cbcd-4394-8b81-d918d54c978d-button-1"
+        "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
+        "e350f2ab-aada-4252-9168-d52c9202c5a6",
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/df64_d40.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "e2d0aeb4-60b7-438c-a624-6e96e8142887": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DF64V Variable Speed Single Dose Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffee DF64V variable speed single dose coffee grinder is small but mighty. This grinder is suitable for both home use and business. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with Italian made DLC (Diamond-Like-Carbon) coated 64mm stainless steel flat burrs. DF64V delivers very low retention. The rubber bellow can be used to push air through the grinding chamber and ensure minimal retention of grounds. The magnetic design of exit chute helps achieve consistent grinds cross all ranges. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
-          }
-        }
-      },
-      "block_order": [
-        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-0",
-        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-1",
-        "template--18695795638567__e2d0aeb4-60b7-438c-a624-6e96e8142887-16823553720b5c195a-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/overview4.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "2eb1cfad-b511-464e-9a46-43729e8de033": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DF83 Coffee Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is much improved from the popular DF64. Its redesgined grinding chamber achieves very low retention without the help of bellow. The wave spring washer holds the top burr carrier and makes grinding super stable. Thanks to its large burr size DF83 is suitable for commercial environment. The latest version comes with plasma generator (aka Ionizer). It works very well and reduces static dramatically.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
-          }
-        }
-      },
-      "block_order": [
-        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-0",
-        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-1",
-        "template--18695795638567__2eb1cfad-b511-464e-9a46-43729e8de033-16823553720b5c195a-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/standing_5224746a-b133-4b43-b595-653d49a5d1a8.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DF64P Single Dose Espresso Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffee DF64P single dose espresso grinder is designed for espresso only. It features the wood accents and comes with Italian made ItalMill 64mm Titanium coated flat burrs. This grinder has delivers true zero retention and the finest adjustment.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df64p-premium-single-dose-espresso-grinder"
-          }
-        }
-      },
-      "block_order": [
-        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-0",
-        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-1",
-        "template--18695795638567__64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9-16823553720b5c195a-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_0474.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "5934d19b-0a3d-4cdc-a383-dbb6d0981446": {
-      "type": "multirow",
-      "blocks": {
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-1": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/df64_d40.jpg",
-            "caption": "An entry level compact coffee grinder",
-            "heading": "MiiCoffee D40+ Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. The forward tilted aluminum body helps reduce retention. This small coffee grinder has clean design. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. The 58mm aluminum dosing cup has a magnetic bottom and it sits on the grinding seat firmly.<\/p>",
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
-          }
-        },
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-2": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/overview4.jpg",
-            "caption": "Caption",
-            "heading": "DF64V Variable Speed Single Dose Grinder",
-            "text": "<p>MiiCoffee DF64V variable speed single dose coffee grinder is small but mighty. This grinder is suitable for both home use and business. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with Italian made DLC (Diamond-Like-Carbon) coated 64mm stainless steel flat burrs. DF64V delivers very low retention. The rubber bellow can be used to push air through the grinding chamber and ensure minimal retention of grounds. The magnetic design of exit chute helps achieve consistent grinds cross all ranges. <\/p>",
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
-          }
-        },
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/standing_5224746a-b133-4b43-b595-653d49a5d1a8.jpg",
-            "caption": "Caption",
-            "heading": "DF83 Coffee Grinder",
-            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is much improved from the popular DF64. Its redesgined grinding chamber achieves very low retention without the help of bellow. The wave spring washer holds the top burr carrier and makes grinding super stable. Thanks to its large burr size DF83 is suitable for commercial environment. The latest version comes with plasma generator (aka Ionizer). It works very well and reduces static dramatically.<\/p>",
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
-          }
-        },
-        "391599b1-ab47-4d3a-ab66-5723128046f6": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-1",
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-2",
-        "template--18695795638567__5934d19b-0a3d-4cdc-a383-dbb6d0981446-row-3",
-        "391599b1-ab47-4d3a-ab66-5723128046f6"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "title": "",
         "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-1",
-        "mobile_content_alignment": "left",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -425,11 +242,7 @@
     "image_banner",
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
     "0bca30df-8008-446e-9c40-ea5fdfd06b09",
-    "eed93cc5-cbcd-4394-8b81-d918d54c978d",
-    "e2d0aeb4-60b7-438c-a624-6e96e8142887",
-    "2eb1cfad-b511-464e-9a46-43729e8de033",
-    "64c6fb4b-7e97-45d6-b59e-4f8c95fdbda9",
-    "5934d19b-0a3d-4cdc-a383-dbb6d0981446",
+    "b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed",
     "eae63502-c8ea-470d-9f5e-c460d7f2d034",
     "featured_collection"
   ]
