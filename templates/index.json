@@ -133,7 +133,7 @@
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview2_c73bacd2-4f7f-4e42-85d2-7e60b819688f.jpg",
+            "image": "shopify:\/\/shop_images\/overview_3_2_4bc17ba6-5e0c-4f49-82e1-d5abbc997844.jpg",
             "title": "DF64P Single Dose Espresso Grinder",
             "text": "<p>MiiCoffee DF64P single dose grinder is designed for espresso only. It features the wood accents and comes with custom made 64mm flat burrs. This grinder has delivers zero retention and the finest adjustment.<\/p>",
             "link_label": "Buy Now",
@@ -160,52 +160,6 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "eae63502-c8ea-470d-9f5e-c460d7f2d034": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "DF64E Electronic Dosing Espresso Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffee DF64E electronic dosing coffee grinder is designed for espresso only. 225g Hopper along with 3 electronic dosing options make your morning routine relaxed. With a touch of button you will get perfect predefined amount of grinds without the hassle of weighting. The grinder features the wood accents and upgraded version of stock burrs, Italian made 64mm DLC coated flat burrs. The new low clumping design reduces clumping during the grinding cycle providing for a even grinds distribution out of exit chute.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df64e-electronic-dosing-espresso-grinder"
-          }
-        }
-      },
-      "block_order": [
-        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-0",
-        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-1",
-        "template--18695795638567__eae63502-c8ea-470d-9f5e-c460d7f2d034-16823553720b5c195a-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/front.jpg",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -243,7 +197,6 @@
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
     "0bca30df-8008-446e-9c40-ea5fdfd06b09",
     "b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed",
-    "eae63502-c8ea-470d-9f5e-c460d7f2d034",
     "featured_collection"
   ]
 }
