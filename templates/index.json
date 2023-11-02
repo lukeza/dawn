@@ -104,10 +104,20 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/overview_3_2.jpg",
-            "title": "MiiCoffee D40+ Single Dose Coffee Grinder",
+            "title": "D40+ Single Dose Coffee Grinder",
             "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. <\/p>",
             "link_label": "Buy Now",
             "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
+          }
+        },
+        "10aedefa-e669-4598-bbb3-0923ca687568": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/withgrinder_3_2.jpg",
+            "title": "MiiCoffee Apex Espresso Machine",
+            "text": "<p>MiiCoffee Apex is an entry-level semi-automatic espresso machine. It has a compact footprint for new home baristas. It uses stainless steel inside out extensively. Apex comes with 550ml stainless steel boiler for brewing espresso. Apex brews espresso at 9 bar. It comes with barometer showing the extra brewing pressure. PID allows you to change brewing temperature. When it starts brewing it also display the brewing time.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-apex-espresso-machine"
           }
         },
         "e350f2ab-aada-4252-9168-d52c9202c5a6": {
@@ -139,13 +149,24 @@
             "link_label": "Buy Now",
             "link": "shopify:\/\/products\/miicoffee-df64p-premium-single-dose-espresso-grinder"
           }
+        },
+        "de2b5e8f-61fa-435a-bc38-06084b93b54f": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
+        "10aedefa-e669-4598-bbb3-0923ca687568",
         "e350f2ab-aada-4252-9168-d52c9202c5a6",
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2"
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
+        "de2b5e8f-61fa-435a-bc38-06084b93b54f"
       ],
       "settings": {
         "title": "",
