@@ -111,16 +111,6 @@
             "link": "shopify:\/\/products\/miicoffee-apex-espresso-machine"
           }
         },
-        "69bdbdd0-960e-46c7-9e40-67ab915f8b32": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2.jpg",
-            "title": "D40+ Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. <\/p>",
-            "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
-          }
-        },
         "ce4935e7-c8f0-44a7-90cd-745a308362eb": {
           "type": "column",
           "settings": {
@@ -129,6 +119,16 @@
             "text": "<p>MiiCoffee DF64 II single dose coffee grinder is complete re-design of the old populate DF64 grinder. It integrated the best elements from DF64V and DF83. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber  absolutely stable. At the same time it achieves minimal retention at the new level.  The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. The integrated Anti-popcorn cover help increase grinding speed.<\/p>",
             "link_label": "Buy Now",
             "link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder"
+          }
+        },
+        "69bdbdd0-960e-46c7-9e40-67ab915f8b32": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overview_3_2.jpg",
+            "title": "D40+ Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. <\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
           }
         },
         "e350f2ab-aada-4252-9168-d52c9202c5a6": {
@@ -174,8 +174,8 @@
       },
       "block_order": [
         "10aedefa-e669-4598-bbb3-0923ca687568",
-        "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
         "ce4935e7-c8f0-44a7-90cd-745a308362eb",
+        "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
         "e350f2ab-aada-4252-9168-d52c9202c5a6",
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
