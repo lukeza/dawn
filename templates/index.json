@@ -46,8 +46,8 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/92DKQaQA4Oc",
-        "cover_image": "shopify:\/\/shop_images\/overview_s_f04c23e6-15fa-489b-b732-5cf750855aac.jpg",
+        "video_url": "https:\/\/youtu.be\/97MCmUv840A",
+        "cover_image": "shopify:\/\/shop_images\/video_thumb_16_9_name.jpg",
         "description": "MiiCoffee DF64 II Single Dose Coffee Grinder",
         "full_width": false,
         "color_scheme": "background-1",
@@ -61,21 +61,21 @@
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "MiiCoffee DF64 II Single Dose Coffee Grinder",
+            "heading": "MiiCoffee Apex Espresso Machine",
             "heading_size": "h2"
           }
         },
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>MiiCoffee DF64 II single dose coffee grinder is complete re-design of the old populate DF64 grinder. It integrated the best elements from DF64V and DF83. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber  absolutely stable. At the same time it achieves minimal retention at the new level.  The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF64 II now comes with custom made stainless steel 64mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.<\/p>"
+            "text": "<p>MiiCoffee Apex is an entry-level semi-automatic espresso machine. It has a compact footprint for new home baristas. It uses stainless steel inside out extensively. Apex comes with 550ml stainless steel boiler for brewing espresso. Apex brews espresso at 9 bar. It comes with barometer showing the extra brewing pressure. PID allows you to change brewing temperature. When it starts brewing it also display the brewing time.<\/p>"
           }
         },
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-button-1": {
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder",
+            "button_link": "shopify:\/\/products\/miicoffee-apex-espresso-machine",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -102,6 +102,7 @@
       "blocks": {
         "10aedefa-e669-4598-bbb3-0923ca687568": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/withgrinder_3_2_ea3f94f9-e7d9-4da9-9ac3-87724a306731.jpg",
             "title": "MiiCoffee Apex Espresso Machine",
@@ -118,6 +119,16 @@
             "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. <\/p>",
             "link_label": "Buy Now",
             "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
+          }
+        },
+        "ce4935e7-c8f0-44a7-90cd-745a308362eb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overview_3_2_64539be7-cf41-4555-9814-d4e8c693c2f7.jpg",
+            "title": "DF64 II Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee DF64 II single dose coffee grinder is complete re-design of the old populate DF64 grinder. It integrated the best elements from DF64V and DF83. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber  absolutely stable. At the same time it achieves minimal retention at the new level.  The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. The integrated Anti-popcorn cover help increase grinding speed.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder"
           }
         },
         "e350f2ab-aada-4252-9168-d52c9202c5a6": {
@@ -164,6 +175,7 @@
       "block_order": [
         "10aedefa-e669-4598-bbb3-0923ca687568",
         "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
+        "ce4935e7-c8f0-44a7-90cd-745a308362eb",
         "e350f2ab-aada-4252-9168-d52c9202c5a6",
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
