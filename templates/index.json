@@ -77,7 +77,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/BlackFriday_a9e2b6a6-076a-478b-b316-b430c9a6f781.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
