@@ -40,6 +40,54 @@
         "show_text_below": false
       }
     },
+    "59732dff-6304-4e91-bbd4-c790afc9b4ce": {
+      "type": "image-banner",
+      "blocks": {
+        "template--18695795638567__59732dff-6304-4e91-bbd4-c790afc9b4ce-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Black Friday Sales",
+            "heading_size": "h0"
+          }
+        },
+        "template--18695795638567__59732dff-6304-4e91-bbd4-c790afc9b4ce-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Huge Markdown & No Code Needed",
+            "text_style": "subtitle"
+          }
+        },
+        "template--18695795638567__59732dff-6304-4e91-bbd4-c790afc9b4ce-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/black-friday-sales",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18695795638567__59732dff-6304-4e91-bbd4-c790afc9b4ce-heading-1",
+        "template--18695795638567__59732dff-6304-4e91-bbd4-c790afc9b4ce-text-1",
+        "template--18695795638567__59732dff-6304-4e91-bbd4-c790afc9b4ce-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BlackFriday_a9e2b6a6-076a-478b-b316-b430c9a6f781.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7": {
       "type": "video",
       "settings": {
@@ -228,6 +276,7 @@
   },
   "order": [
     "image_banner",
+    "59732dff-6304-4e91-bbd4-c790afc9b4ce",
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
     "0bca30df-8008-446e-9c40-ea5fdfd06b09",
     "b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed",
