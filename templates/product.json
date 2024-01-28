@@ -23,7 +23,7 @@
           }
         },
         "9a8e9b3d-9830-4656-b802-0788215b957a": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>Free shipping on orders over $69.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Returns<\/a> are accepted up to 30 days from the date the order was delivered. Open Box items are non-returnable.<\/p>",
+            "content": "<p>Free shipping on orders over $69.<\/p><p><a href=\"\/policies\/refund-policy\" target=\"_blank\" title=\"Refund Policy\">Returns<\/a> are accepted up to 30 days from the date the order was delivered.<\/p>",
             "page": ""
           }
         },
@@ -114,7 +114,7 @@
       "type": "apps",
       "blocks": {
         "5d156c75-a1d7-470d-a415-f8281160b563": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
