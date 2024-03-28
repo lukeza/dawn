@@ -5,10 +5,10 @@
       "settings": {
       }
     },
-    "1641953619c50031f2": {
+    "17116304319313e64e": {
       "type": "apps",
       "blocks": {
-        "a744a8ee-61b9-4eb9-8e1c-760d6f18dafb": {
+        "socialembed_instagram_feed_app_block_GMYURG": {
           "type": "shopify:\/\/apps\/socialembed-instagram-feed\/blocks\/app-block\/a3a813a9-fd68-4118-84b9-44ecdecd106f",
           "settings": {
             "heading": "Follow us on Instagram",
@@ -19,7 +19,7 @@
         }
       },
       "block_order": [
-        "a744a8ee-61b9-4eb9-8e1c-760d6f18dafb"
+        "socialembed_instagram_feed_app_block_GMYURG"
       ],
       "settings": {
         "include_margins": true
@@ -28,6 +28,6 @@
   },
   "order": [
     "main",
-    "1641953619c50031f2"
+    "17116304319313e64e"
   ]
 }
