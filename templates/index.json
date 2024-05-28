@@ -89,19 +89,32 @@
         "show_text_below": true
       }
     },
-    "c48344ec-75d8-43ee-bbad-9e9d1f7e6c8d": {
-      "type": "video",
+    "image_banner_PedhPV": {
+      "type": "image-banner",
+      "blocks": {
+        "text_Rt3N87": {
+          "type": "text",
+          "settings": {
+            "text": "DF83V",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_Rt3N87"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/A5I35uTxO0I",
-        "cover_image": "shopify:\/\/shop_images\/video_thumb_7524ef13-cc70-49ce-b9fb-0f1714b6f0ee.jpg",
-        "description": "MiiCoffee DF83V Variable Speed Single Dose Coffee Grinder",
-        "full_width": false,
+        "image": "shopify:\/\/shop_images\/overview.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "56872beb-9d03-4ef8-8671-7655454632f3": {
@@ -335,7 +348,7 @@
   "order": [
     "image_banner",
     "59732dff-6304-4e91-bbd4-c790afc9b4ce",
-    "c48344ec-75d8-43ee-bbad-9e9d1f7e6c8d",
+    "image_banner_PedhPV",
     "56872beb-9d03-4ef8-8671-7655454632f3",
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
     "0bca30df-8008-446e-9c40-ea5fdfd06b09",
