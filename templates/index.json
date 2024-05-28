@@ -89,76 +89,6 @@
         "show_text_below": true
       }
     },
-    "image_banner_PedhPV": {
-      "type": "image-banner",
-      "blocks": {
-        "text_Rt3N87": {
-          "type": "text",
-          "settings": {
-            "text": "DF83V",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_Rt3N87"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/overview.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "56872beb-9d03-4ef8-8671-7655454632f3": {
-      "type": "rich-text",
-      "blocks": {
-        "206fe4dd-74c6-4286-91c3-6f052ddf33e4": {
-          "type": "heading",
-          "settings": {
-            "heading": "MiiCoffee DF83V Variable Speed Single Dose Coffee Grinder",
-            "heading_size": "h2"
-          }
-        },
-        "b473a489-5ae2-45cb-b347-c05e74ab4bc8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. <\/p>"
-          }
-        },
-        "4abcdeb9-4290-4551-8d8e-dd78eb183033": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-df83v-single-dose-coffee-grinder",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "206fe4dd-74c6-4286-91c3-6f052ddf33e4",
-        "b473a489-5ae2-45cb-b347-c05e74ab4bc8",
-        "4abcdeb9-4290-4551-8d8e-dd78eb183033"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 16
-      }
-    },
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7": {
       "type": "video",
       "settings": {
@@ -230,6 +160,26 @@
             "link": "shopify:\/\/products\/miicoffee-apex-espresso-machine"
           }
         },
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overview2_dc35b374-0e50-45f0-adfc-e66481f1948a.jpg",
+            "title": "DF83V Variable Speed Single Dose Grinder",
+            "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. <\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-df83v-single-dose-coffee-grinder"
+          }
+        },
+        "column_BBzfwk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/overview_5dbf369b-e5b1-4600-99b6-88e1db3c2a25.jpg",
+            "title": "DF54 Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee DF54 single dose coffee grinder is entry level flat burr coffee grinder. It integrated the best elements from DF64 II but is made into a smaller package. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber absolutely stable. At the same time it achieves minimal retention at the new level. The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF54 comes with custom made stainless steel 54mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/miicoffee-df54-single-dose-coffee-grinder"
+          }
+        },
         "ce4935e7-c8f0-44a7-90cd-745a308362eb": {
           "type": "column",
           "settings": {
@@ -250,16 +200,6 @@
             "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
           }
         },
-        "e350f2ab-aada-4252-9168-d52c9202c5a6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2_e9f22e67-03ec-455b-bb16-d271a98e00d5.jpg",
-            "title": "DF83 Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is rated best coffee grinder between $500 to $1000. Thanks to its large burr size DF83 is suitable for commercial environment. It now comes with plasma generator (aka Ionizer) that reduces static.<\/p>",
-            "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
-          }
-        },
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1": {
           "type": "column",
           "settings": {
@@ -270,18 +210,19 @@
             "link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
           }
         },
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
+        "e350f2ab-aada-4252-9168-d52c9202c5a6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2_a101f1c8-25ee-43b9-92ca-db2e2cd4cf64.jpg",
-            "title": "DF64P Single Dose Espresso Grinder",
-            "text": "<p>MiiCoffee DF64P single dose grinder is designed for espresso only. It features the wood accents and comes with custom made 64mm flat burrs. This grinder has delivers zero retention and the finest adjustment.<\/p>",
+            "image": "shopify:\/\/shop_images\/overview_3_2_e9f22e67-03ec-455b-bb16-d271a98e00d5.jpg",
+            "title": "DF83 Single Dose Coffee Grinder",
+            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is rated best coffee grinder between $500 to $1000. Thanks to its large burr size DF83 is suitable for commercial environment. It now comes with plasma generator (aka Ionizer) that reduces static.<\/p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-df64p-premium-single-dose-espresso-grinder"
+            "link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
           }
         },
         "de2b5e8f-61fa-435a-bc38-06084b93b54f": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/overview_3_2_574a25be-4052-44e7-b0a9-85799ed62b2e.jpg",
             "title": "PT1 Portable Electric Coffee Grinder",
@@ -293,11 +234,12 @@
       },
       "block_order": [
         "10aedefa-e669-4598-bbb3-0923ca687568",
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
+        "column_BBzfwk",
         "ce4935e7-c8f0-44a7-90cd-745a308362eb",
         "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
-        "e350f2ab-aada-4252-9168-d52c9202c5a6",
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
+        "e350f2ab-aada-4252-9168-d52c9202c5a6",
         "de2b5e8f-61fa-435a-bc38-06084b93b54f"
       ],
       "settings": {
@@ -348,8 +290,6 @@
   "order": [
     "image_banner",
     "59732dff-6304-4e91-bbd4-c790afc9b4ce",
-    "image_banner_PedhPV",
-    "56872beb-9d03-4ef8-8671-7655454632f3",
     "b4eb4b21-31bd-4963-8746-41c5e81cdbe7",
     "0bca30df-8008-446e-9c40-ea5fdfd06b09",
     "b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed",
