@@ -25,6 +25,7 @@
         },
         "announcement_YnFPQ4": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Our warehouse is currently on a brief hiatus, and your order is scheduled to be shipped on July 13th.",
             "text_alignment": "center",
