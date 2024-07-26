@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -163,7 +172,7 @@
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview2_dc35b374-0e50-45f0-adfc-e66481f1948a.jpg",
+            "image": "shopify:\/\/shop_images\/overview.jpg",
             "title": "DF83V Variable Speed Single Dose Grinder",
             "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. <\/p>",
             "link_label": "Buy Now",
@@ -173,7 +182,7 @@
         "column_BBzfwk": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview_5dbf369b-e5b1-4600-99b6-88e1db3c2a25.jpg",
+            "image": "shopify:\/\/shop_images\/overview_2b6f885c-19a5-463b-89d1-2f7cc9e85676.jpg",
             "title": "DF54 Single Dose Coffee Grinder",
             "text": "<p>MiiCoffee DF54 single dose coffee grinder is entry level flat burr coffee grinder. It integrated the best elements from DF64 II but is made into a smaller package. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber absolutely stable. At the same time it achieves minimal retention at the new level. The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF54 comes with custom made stainless steel 54mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.<\/p>",
             "link_label": "Buy Now",
