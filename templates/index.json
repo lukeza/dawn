@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -23,7 +23,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Discover",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -36,7 +36,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/store_new.jpg",
+        "image": "shopify://shop_images/store_new.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "top-center",
@@ -70,7 +70,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/black-friday-sales",
+            "button_link_1": "shopify://collections/black-friday-sales",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -85,7 +85,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/BlackFriday_a9e2b6a6-076a-478b-b316-b430c9a6f781.jpg",
+        "image": "shopify://shop_images/BlackFriday_a9e2b6a6-076a-478b-b316-b430c9a6f781.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
@@ -104,8 +104,8 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/97MCmUv840A",
-        "cover_image": "shopify:\/\/shop_images\/video_thumb_16_9_name.jpg",
+        "video_url": "https://youtu.be/97MCmUv840A",
+        "cover_image": "shopify://shop_images/video_thumb_16_9_name.jpg",
         "description": "MiiCoffee DF64 II Single Dose Coffee Grinder",
         "full_width": false,
         "color_scheme": "background-1",
@@ -119,21 +119,21 @@
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "MiiCoffee Apex Espresso Machine",
+            "heading": "MiiCoffee Apex Espresso Machine V2",
             "heading_size": "h2"
           }
         },
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>MiiCoffee Apex is prefect for the beginner looking for an entry-level semi-automatic espresso machine. It has a compact footprint for new home baristas. The espresso machine uses a vibratory pump, a built-in PID with temperature control, a shot timer. Apex comes with a 550ml stainless steel boiler for brewing espresso and a dedicated thermo block for making dry steam. Apex targets brewing espresso at 9 bars with barometer showing the brewing pressure. It also includes time adjustable pre-infusion so that intermediate baristas can gain more control into espresso making.<\/p>"
+            "text": "<p>MiiCoffee Apex is prefect for the beginner looking for an entry-level semi-automatic espresso machine. It has a compact footprint for new home baristas. The espresso machine uses a vibratory pump, a dual PIDs with temperature control for both brewing and steaming. Apex targets brewing espresso at 9 bars with a barometer and OPV. It's also packed with adjustable pre-infusion so that intermediate baristas can gain more control into espresso making.</p>"
           }
         },
         "template--18695795638567__0bca30df-8008-446e-9c40-ea5fdfd06b09-button-1": {
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify:\/\/products\/miicoffee-apex-espresso-machine",
+            "button_link": "shopify://products/miicoffee-apex-espresso-machine",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -162,82 +162,82 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/withgrinder_3_2_ea3f94f9-e7d9-4da9-9ac3-87724a306731.jpg",
+            "image": "shopify://shop_images/withgrinder_3_2_ea3f94f9-e7d9-4da9-9ac3-87724a306731.jpg",
             "title": "MiiCoffee Apex Espresso Machine",
-            "text": "<p>MiiCoffee Apex is an entry-level semi-automatic espresso machine. It has a compact footprint for new home baristas. It uses stainless steel inside out extensively. Apex comes with 550ml stainless steel boiler for brewing espresso. Apex brews espresso at 9 bar. It comes with barometer showing the extra brewing pressure. PID allows you to change brewing temperature. When it starts brewing it also display the brewing time.<\/p>",
+            "text": "<p>MiiCoffee Apex is an entry-level semi-automatic espresso machine. It has a compact footprint for new home baristas. It uses stainless steel inside out extensively. Apex comes with 550ml stainless steel boiler for brewing espresso. Apex brews espresso at 9 bar. It comes with barometer showing the extra brewing pressure. PID allows you to change brewing temperature. When it starts brewing it also display the brewing time.</p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-apex-espresso-machine"
+            "link": "shopify://products/miicoffee-apex-espresso-machine"
           }
         },
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview3.jpg",
+            "image": "shopify://shop_images/overview3.jpg",
             "title": "DF83V Variable Speed Single Dose Grinder",
-            "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. <\/p>",
+            "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. </p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-df83v-single-dose-coffee-grinder"
+            "link": "shopify://products/miicoffee-df83v-single-dose-coffee-grinder"
           }
         },
         "column_BBzfwk": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview2_cb5fe79c-8cdb-484a-966e-cc16aea6f0b3.jpg",
+            "image": "shopify://shop_images/overview2_cb5fe79c-8cdb-484a-966e-cc16aea6f0b3.jpg",
             "title": "DF54 Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee DF54 single dose coffee grinder is entry level flat burr coffee grinder. It integrated the best elements from DF64 II but is made into a smaller package. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber absolutely stable. At the same time it achieves minimal retention at the new level. The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF54 comes with custom made stainless steel 54mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.<\/p>",
+            "text": "<p>MiiCoffee DF54 single dose coffee grinder is entry level flat burr coffee grinder. It integrated the best elements from DF64 II but is made into a smaller package. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber absolutely stable. At the same time it achieves minimal retention at the new level. The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF54 comes with custom made stainless steel 54mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.</p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-df54-single-dose-coffee-grinder"
+            "link": "shopify://products/miicoffee-df54-single-dose-coffee-grinder"
           }
         },
         "ce4935e7-c8f0-44a7-90cd-745a308362eb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2_64539be7-cf41-4555-9814-d4e8c693c2f7.jpg",
+            "image": "shopify://shop_images/overview_3_2_64539be7-cf41-4555-9814-d4e8c693c2f7.jpg",
             "title": "DF64 II Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee DF64 II single dose coffee grinder is complete re-design of the old populate DF64 grinder. It integrated the best elements from DF64V and DF83. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber  absolutely stable. At the same time it achieves minimal retention at the new level.  The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. The integrated Anti-popcorn cover help increase grinding speed.<\/p>",
+            "text": "<p>MiiCoffee DF64 II single dose coffee grinder is complete re-design of the old populate DF64 grinder. It integrated the best elements from DF64V and DF83. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber  absolutely stable. At the same time it achieves minimal retention at the new level.  The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. The integrated Anti-popcorn cover help increase grinding speed.</p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/mii-df64-single-dosing-coffee-grinder"
+            "link": "shopify://products/mii-df64-single-dosing-coffee-grinder"
           }
         },
         "69bdbdd0-960e-46c7-9e40-67ab915f8b32": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2.jpg",
+            "image": "shopify://shop_images/overview_3_2.jpg",
             "title": "D40+ Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. <\/p>",
+            "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. </p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-d40plus-single-dose-coffee-grinder"
+            "link": "shopify://products/miicoffee-d40plus-single-dose-coffee-grinder"
           }
         },
         "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/stall_issue_image.jpg",
+            "image": "shopify://shop_images/stall_issue_image.jpg",
             "title": "DF64V Variable Speed Single Dose Grinder",
-            "text": "<p>MiiCoffee DF64V coffee grinder is small but mighty. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with DLC coated 64mm flat burrs. It delivers very low retention. The magnetic design of exit chute makes cleaning super easy. <\/p>",
+            "text": "<p>MiiCoffee DF64V coffee grinder is small but mighty. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with DLC coated 64mm flat burrs. It delivers very low retention. The magnetic design of exit chute makes cleaning super easy. </p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-df64v-single-dose-grinder"
+            "link": "shopify://products/miicoffee-df64v-single-dose-grinder"
           }
         },
         "e350f2ab-aada-4252-9168-d52c9202c5a6": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2_e9f22e67-03ec-455b-bb16-d271a98e00d5.jpg",
+            "image": "shopify://shop_images/overview_3_2_e9f22e67-03ec-455b-bb16-d271a98e00d5.jpg",
             "title": "DF83 Single Dose Coffee Grinder",
-            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is rated best coffee grinder between $500 to $1000. Thanks to its large burr size DF83 is suitable for commercial environment. It now comes with plasma generator (aka Ionizer) that reduces static.<\/p>",
+            "text": "<p>MiiCoffee DF83 coffee grinder is all purpose grinder working for a range of brew methods e.g. pour over, espresso, cold brew etc. DF83 is rated best coffee grinder between $500 to $1000. Thanks to its large burr size DF83 is suitable for commercial environment. It now comes with plasma generator (aka Ionizer) that reduces static.</p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-df83-coffee-grinder"
+            "link": "shopify://products/miicoffee-df83-coffee-grinder"
           }
         },
         "de2b5e8f-61fa-435a-bc38-06084b93b54f": {
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/overview_3_2_574a25be-4052-44e7-b0a9-85799ed62b2e.jpg",
+            "image": "shopify://shop_images/overview_3_2_574a25be-4052-44e7-b0a9-85799ed62b2e.jpg",
             "title": "PT1 Portable Electric Coffee Grinder",
-            "text": "<p>MiiCoffee PT1 portable coffee grinder is a small coffee grinder that can be carried around easily.With the full metal construction it is guaranteed to last longer. The stainless steel conical burrs that deliver a consistent grind. 80 click adjustment provides grinding sizes that covers espresso, pour over coffee to French press. The built-in 800mAh battery can last 15 to 20 grinds. It supports most fast charging USB-C chargers.<\/p>",
+            "text": "<p>MiiCoffee PT1 portable coffee grinder is a small coffee grinder that can be carried around easily.With the full metal construction it is guaranteed to last longer. The stainless steel conical burrs that deliver a consistent grind. 80 click adjustment provides grinding sizes that covers espresso, pour over coffee to French press. The built-in 800mAh battery can last 15 to 20 grinds. It supports most fast charging USB-C chargers.</p>",
             "link_label": "Buy Now",
-            "link": "shopify:\/\/products\/miicoffee-pt1-portable-electric-burr-coffee-grinder"
+            "link": "shopify://products/miicoffee-pt1-portable-electric-burr-coffee-grinder"
           }
         }
       },
