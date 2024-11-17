@@ -36,13 +36,13 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/store_new.jpg",
+        "image": "shopify://shop_images/store2024.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
