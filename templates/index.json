@@ -220,6 +220,7 @@
         },
         "e350f2ab-aada-4252-9168-d52c9202c5a6": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/overview_3_2_e9f22e67-03ec-455b-bb16-d271a98e00d5.jpg",
             "title": "DF83 Single Dose Coffee Grinder",
@@ -230,7 +231,6 @@
         },
         "de2b5e8f-61fa-435a-bc38-06084b93b54f": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/overview_3_2_574a25be-4052-44e7-b0a9-85799ed62b2e.jpg",
             "title": "PT1 Portable Electric Coffee Grinder",
