@@ -169,14 +169,14 @@
             "link": "shopify://products/miicoffee-apex-espresso-machine"
           }
         },
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/overview3.jpg",
-            "title": "DF83V Variable Speed Single Dose Grinder",
-            "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. </p>",
+            "image": "shopify://shop_images/overview_c5e92a5f-531f-4b4c-966f-aa1fee34ffa0.jpg",
+            "title": "CF64V Variable Speed Single Dose Grinder",
+            "text": "<p>MiiCoffee CF64V variable speed single dose coffee grinder has the burrs in a horizontal orientation. It uses gravity for grinds to escape thus very low retention. The burr carrier is using square shape with 4 holding screws. The design provides a super stable platform and makes consistence grinding performance. CF64V comes with 64mm DLC coated flat burrs. The stepless adjustment dial makes dial in espresso with ease. It can grind all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. CF64V delivers minimum retention. Use the knocker on the side to get ride of the remaining grinds off of the chute. The exit chute is equipped with plasma generator (aka Ionizer). It reduces static to non-existent.</p>",
             "link_label": "Buy Now",
-            "link": "shopify://products/miicoffee-df83v-single-dose-coffee-grinder"
+            "link": "shopify://products/miicoffee-cf64v-variable-speed-single-dose-coffee-grinder"
           }
         },
         "column_BBzfwk": {
@@ -187,6 +187,16 @@
             "text": "<p>MiiCoffee DF54 single dose coffee grinder is entry level flat burr coffee grinder. It integrated the best elements from DF64 II but is made into a smaller package. The three seated position for the upper burr carrier integrated wave spring makes the grinding chamber absolutely stable. At the same time it achieves minimal retention at the new level. The exit chute is equipped with plasma generator (aka Ionizer) that reduces static to non-existent. DF54 comes with custom made stainless steel 54mm flat burrs that deliver a fluffy grind with minimal clumping and consistent particle size distribution. The integrated Anti-popcorn cover help increase grinding speed.</p>",
             "link_label": "Buy Now",
             "link": "shopify://products/miicoffee-df54-single-dose-coffee-grinder"
+          }
+        },
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/overview3.jpg",
+            "title": "DF83V Variable Speed Single Dose Grinder",
+            "text": "<p>MiiCoffeeDF83V Variable Speed Single Dose Coffee Grinder is a significant upgrade from its predecessor, the DF83. The horizontal design of DF83V is specifically engineered to minimize retention. The high power brushless DC motor allows for a wide range of speed control, from 300 to 1600 RPM, providing optimal grinding performance for your coffee beans. This powerful DC motor's high torque is capable of crushing even the lightest coffee beans, eliminating the common stall issue found in other DC motor grinders. Choose between 83mm espresso DLC burrs or brewing DLC burrs. </p>",
+            "link_label": "Buy Now",
+            "link": "shopify://products/miicoffee-df83v-single-dose-coffee-grinder"
           }
         },
         "ce4935e7-c8f0-44a7-90cd-745a308362eb": {
@@ -207,16 +217,6 @@
             "text": "<p>MiiCoffee D40+ coffee grinder is an entry level single dose coffee grinder. It comes with stainless steel 40mm conical burrs that deliver a consistent grind with minimal clumping. Using aluminum as main body material it has an attractive price tag but doesn't sacrifice the build quality. D40+ now has stepless adjustment and helps dial in espresso with ease. </p>",
             "link_label": "Buy Now",
             "link": "shopify://products/miicoffee-d40plus-single-dose-coffee-grinder"
-          }
-        },
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/stall_issue_image.jpg",
-            "title": "DF64V Variable Speed Single Dose Grinder",
-            "text": "<p>MiiCoffee DF64V coffee grinder is small but mighty. The beautiful designed grinder uses CNC aluminum extensively. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with DLC coated 64mm flat burrs. It delivers very low retention. The magnetic design of exit chute makes cleaning super easy. </p>",
-            "link_label": "Buy Now",
-            "link": "shopify://products/miicoffee-df64v-single-dose-grinder"
           }
         },
         "e350f2ab-aada-4252-9168-d52c9202c5a6": {
@@ -243,11 +243,11 @@
       },
       "block_order": [
         "10aedefa-e669-4598-bbb3-0923ca687568",
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
         "column_BBzfwk",
+        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-2",
         "ce4935e7-c8f0-44a7-90cd-745a308362eb",
         "69bdbdd0-960e-46c7-9e40-67ab915f8b32",
-        "template--18695795638567__b3ea4f7a-079c-4a6e-90f1-5e09150ad5ed-column-1",
         "e350f2ab-aada-4252-9168-d52c9202c5a6",
         "de2b5e8f-61fa-435a-bc38-06084b93b54f"
       ],
