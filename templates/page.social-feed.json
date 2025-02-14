@@ -9,6 +9,36 @@
  */
 {
   "sections": {
+    "rich_text_ThArVx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jHqezn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to Our YouTube Channel",
+            "heading_size": "h1"
+          }
+        },
+        "text_FExeEe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>YouTube <a href=\"https://www.youtube.com/@miicoffee\" target=\"_blank\" title=\"https://www.youtube.com/@miicoffee\">@miicoffee.shop</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jHqezn",
+        "text_FExeEe"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -30,43 +60,13 @@
         "template--18697163866407__38af23d0-0ca8-4748-9b2c-c104925598ef-168235903343fa73cc-1": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"https://www.instagram.com/miicoffee.shop\" target=\"_blank\" title=\"https://www.instagram.com/miicoffee.shop\">@miicoffee.shop</a></p>"
+            "text": "<p>Instagram <a href=\"https://www.instagram.com/miicoffee.shop\" target=\"_blank\" title=\"https://www.instagram.com/miicoffee.shop\">@miicoffee.shop</a></p>"
           }
         }
       },
       "block_order": [
         "template--18697163866407__38af23d0-0ca8-4748-9b2c-c104925598ef-168235903343fa73cc-0",
         "template--18697163866407__38af23d0-0ca8-4748-9b2c-c104925598ef-168235903343fa73cc-1"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_ThArVx": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jHqezn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to Our YouTube Channel",
-            "heading_size": "h1"
-          }
-        },
-        "text_FExeEe": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"https://www.instagram.com/miicoffee.shop\" target=\"_blank\" title=\"https://www.instagram.com/miicoffee.shop\">@miicoffee.shop</a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jHqezn",
-        "text_FExeEe"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -100,9 +100,9 @@
     }
   },
   "order": [
+    "rich_text_ThArVx",
     "main",
     "38af23d0-0ca8-4748-9b2c-c104925598ef",
-    "rich_text_ThArVx",
     "168235970398bccc99"
   ]
 }
