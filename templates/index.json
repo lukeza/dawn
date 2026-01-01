@@ -104,8 +104,8 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/yBfSIRy19Q0",
-        "cover_image": "shopify://shop_images/video_thumb_5f54b9f1-e6a7-4d82-9aef-68123fad747c.jpg",
+        "video_url": "https://youtu.be/VuwRB0jei38",
+        "cover_image": "shopify://shop_images/video_thumb_ed265b45-88de-4073-b2bb-a34ef3ad8142.jpg",
         "description": "MiiCoffee Eon Portable Espresso Machine",
         "full_width": false,
         "color_scheme": "background-1",
@@ -119,21 +119,21 @@
         "heading_cEnYKr": {
           "type": "heading",
           "settings": {
-            "heading": "MiiCoffee Eon Portable Espresso Machine",
+            "heading": "MiiCoffee GF64 Coffee Grinder",
             "heading_size": "h2"
           }
         },
         "text_6iHGng": {
           "type": "text",
           "settings": {
-            "text": "<p>MiiCoffee Eon Portable Espresso Machine is ideal for frequent travelers in need of on-the-go espresso. With the ability to heat water from room temperature to 92°C and produce espresso at 20 bar pressure, its built-in pre-infusion sets it apart as a must-have for espresso lovers craving a quality brew even while on the road.</p>"
+            "text": "<p>MiiCoffee GF64 coffee grinder is small all purpose coffee grinder. It covers all ranges of coffee beans, e.g. espresso, filter brewing and Turkish coffee. The grinder comes with stainless steel 64mm flat burrs. GF64 delivers very low retention. The rubber bellow can be used to push air through the grinding chamber and ensure minimal retention of grounds. The exit chute is equipped with plasma generator (aka Ionizer). It reduces static to non-existent. <br/><br/></p>"
           }
         },
         "button_weYzaF": {
           "type": "button",
           "settings": {
             "button_label": "Buy Now",
-            "button_link": "shopify://products/miicoffee-eon-portable-espresso-machine",
+            "button_link": "shopify://products/miicoffee-gf64-coffee-grinder",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
