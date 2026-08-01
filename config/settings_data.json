@@ -165,12 +165,13 @@
           "button_vertical_position": "lowest"
         }
       },
-      "4571859552318407796": {
-        "type": "shopify://apps/glo-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
-        "disabled": true,
+      "316487575649303945": {
+        "type": "shopify://apps/easify-options/blocks/app-embed-block/d2288b18-c1ba-42f5-b3b3-26c75c8820bf",
+        "disabled": false,
         "settings": {
-          "customCssGCW": "",
-          "customJsGCW": ""
+          "theme_app_version": "none",
+          "path_loading_mode": "include",
+          "page_paths": ""
         }
       }
     }
